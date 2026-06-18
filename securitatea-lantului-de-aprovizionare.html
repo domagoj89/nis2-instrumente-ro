@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-Q69G1L32V6');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Securitatea Lanțului de Aprovizionare NIS2: Ghid Articolul 21(2)(d)</title>
+  <meta name="description" content="Cum să implementezi cerințele NIS2 pentru securitatea lanțului de aprovizionare. Contracte furnizori, evaluare riscuri, monitoring continuu. Ghid complet România.">
+  <link rel="canonical" href="https://nis2-instrumente.ro/securitatea-lantului-de-aprovizionare.html">
+  <meta property="og:title" content="Securitatea Lanțului de Aprovizionare NIS2: Ghid Articolul 21(2)(d)">
+  <meta property="og:description" content="Cum să implementezi cerințele NIS2 pentru securitatea lanțului de aprovizionare. Contracte furnizori, evaluare riscuri, monitoring continuu. Ghid complet România.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nis2-instrumente.ro/securitatea-lantului-de-aprovizionare.html">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="nis2-instrumente.ro">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Securitatea Lanțului de Aprovizionare NIS2: Ghid Articolul 21(2)(d)", "description": "Cum să implementezi cerințele NIS2 pentru securitatea lanțului de aprovizionare. Contracte furnizori, evaluare riscuri, monitoring continuu. Ghid complet România.", "author": {"@type": "Organization", "name": "nis2-instrumente.ro"}, "datePublished": "2026-06-18", "dateModified": "2026-06-18"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Care este diferența între Articolul 21(2)(c) și 21(2)(d)?", "acceptedAnswer": {"@type": "Answer", "text": "Articolul 21(2)(c) impune managementul riscurilor generale al entității. Articolul 21(2)(d) este **specific pentru riscurile furnizorilor**. Trebuie să ai ambele — un program de securitate internă general și un program dedicat de risc de furnizor cu contracte, evaluări și monitoring."}}, {"@type": "Question", "name": "Trebuie să auditez fizic toți furnizorii?", "acceptedAnswer": {"@type": "Answer", "text": "Nu este obligatoriu pentru toți. Utilizează <strong>matrice de risc</strong> — auditorii fizici pentru furnizorii critici (cloud, outsource IT, date sensibile). Pentru alții, folosește chestionare și platforme de rating cum ar fi SecurityScorecard. Documentează-ți motivarea deciziei de risc."}}, {"@type": "Question", "name": "Ce se întâmplă dacă un furnizor refuză să răspundă la chestionarul de securitate?", "acceptedAnswer": {"@type": "Answer", "text": "Riscul lor de securitate este considerat **necunoscut/înalt**. Escalează la management — dacă refuză transparență, aceștia sunt o problemă NIS2. Ia în considerare rescindarea contractului sau implementează controale compensatorii (monitoring mai strict, acces limitat). NIS2 permite acceptare riscului *documentat*, dar nu ignorare."}}, {"@type": "Question", "name": "SecurityScorecard și BitSight sunt necesare sub NIS2?", "acceptedAnswer": {"@type": "Answer", "text": "Nu sunt obligatorii explicit în textul NIS2. **Dar sunt **foarte recomandate* — demonstrezi monitoring continuu care auditorii cauta. Pentru 50+ furnizori, manual este ineficient. Platformele oferă dovezi de conformitate și detectează riscuri pe care chestionarele nu le găsesc."}}, {"@type": "Question", "name": "Cine din departament ar trebui să coordoneze evaluarea furnizorilor?", "acceptedAnswer": {"@type": "Answer", "text": "Ideal: **Responsabil de securitate IT + Procurement + Juridic**. Securitatea IT cunoaște riscurile tehnice, Procurement gestionează relaţiile vendor și contractele, Juridic negociază clauze. Reglyze și alte platforme ISMS pot centraliza comunicarea și urmărire între departamente."}}]}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">NIS2<span>Instrumente</span>.ro</a>
+      <ul class="nav__links"><li><a href="porownanie.html">Comparație instrumente</a></li><li><a href="sektory-ksc.html">Sectoare NIS2</a></li><li><a href="kalkulator.html">Calculator NIS2</a></li><li><a href="faq.html">FAQ</a></li></ul>
+      <a href="kalkulator.html" class="nav__cta">Descarcă Checklist-ul</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:1.5rem;">
+  <div class="breadcrumb">
+    <a href="index.html">Home</a><span>›</span>
+    NIS2 > Securitatea Lanțului de Aprovizionare
+  </div>
+</div>
+
+<div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
+  <div class="container--narrow">
+    <span class="eyebrow">Conformitate NIS2</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);margin:.5rem 0 1rem;">Securitatea Lanțului de Aprovizionare sub NIS2: Ghid Complet pentru Empresele din România</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);">Articolul 21(2)(d) al NIS2 impune managementul riscurilor securității în întreg lanțul de aprovizionare. Descoperi ce trebuie să faci și care sunt pasii practici de implementare.</p>
+    <a href="https://securityscorecard.com" class="btn btn--primary" style="margin-top:1.25rem;" target="_blank" rel="nofollow noopener">Obține Checklist NIS2 →</a>
+  </div>
+</div>
+
+
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Ce Cere NIS2 pentru Securitatea Lanțului de Aprovizionare?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><strong>Articolul 21(2)(d)</strong> al NIS2obligă entitățile esențiale și importante să impună furnizorilor lor <strong>măsuri de securitate contractuale</strong> pentru a reduce riscurile. Nu este o opțiune — este o cerință obligatorie.</p><p>Trebuie să:</p><ul><li>Includă în <strong>toate contractele de furnizor</strong> clauze de securitate IT și gestionare a incidentelor.</li><li>Evaluezi periodic <strong>riscurile de securitate</strong> ale furnizorilor direct și indirecți.</li><li>Asiguri că furnizorii tăi respectă <strong>standarde de securitate echivalente</strong> cu cele interne.</li><li>Monitorizezi <strong>notificarea incidentelor</strong> de securitate în timp util.</li></ul><p>Această cerință are consecințe legale — neconformitatea poate duce la sancțiuni financiare și pierderea licenței de operare.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Cine Contează ca Furnizor Sub NIS2?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Mulți directori IT și de securitate sunt surprinși de <strong>definiția largă a furnizorului</strong>. Nu este doar vendor-ul de software cloud — aproape oricine cu acces la sisteme dvs. critice contează:</p><ul><li><strong>Furnizori de software și cloud</strong> (Azure, AWS, Salesforce, ERP).</li><li><strong>Furnizori IT outsourced</strong> — help desk, managed services, administrare servere.</li><li><strong>Furnizori de telecomunicații</strong> — ISP, VPN, hosted telephony.</li><li><strong>Furnizori de infrastructură fizică</strong> — firme de curățenie cu acces la serveră, gardă, HVAC în sala de server.</li><li><strong>Furnizori de servicii support</strong> — vendor-ul copierului, furnizor de echipament medicale cu remote access.</li><li><strong>Subcontractori</strong> ai oricărui furnizor de mai sus.</li></ul><p>Dacă au orice acces la date, sisteme sau locații critice, sunt in scope.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Ce Trebuie Inclus în Contractele cu Furnizorii?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Contractele nu trebuie să fie lungi sau complexe, dar trebuie să acopere <strong>elementele de securitate esențiale</strong>:</p><ul><li><strong>Standarde de securitate</strong> — autentificare, criptare, backup, audit logging.</li><li><strong>Notificarea incidentelor</strong> — furnizorul trebuie să raporteze în maximum 24-48 ore orice suspect de incidente de securitate.</li><li><strong>Drepturi de audit și control</strong> — dreptul dvs. să auditați sisteme, să cumpliți penalități contractuale pentru nerespectare.</li><li><strong>Gestionarea datelor</strong> — unde sunt stocate, cum sunt șterse la terminare contract, conformitate GDPR.</li><li><strong>Managementul subcontractorilor</strong> — furnizorul trebuie să verifice și monitorizeze propriii subcontractori.</li><li><strong>Clauze de reziliere</strong> — dreptul de a termina rapid dacă sunt îngrijorări de securitate.</li></ul><p>Reglyze (https://reglyze.com) și alte platforme ISMS oferă șabloane și module de gestionare a furnizorilor pentru a simplifica procesul.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Cum să Evaluezi Furnizorii: Chestionare vs. Platforme de Rating</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Există <strong>două abordări principale</strong> pentru evaluarea securității furnizorilor:</p><p><strong>1. Abordare Chestionar (DIY):</strong> Trimiți o listă de întrebări despre securitate. Ieftin, dar depinde de răspunsuri oneste și necesită timp pentru analiză.</p><p><strong>2. Platforme de Rating Securitate:</strong> <a href='https://securityscorecard.com'>SecurityScorecard</a>, BitSight și UpGuard furnizează <strong>scoruri de securitate continue</strong> pe bază de date publice, teste de penetrare, analiza malware și alte semnale. Actualizează riscurile în real-time.</p><p><strong>De ce alegere?: </strong> Abordarea hibridă este optimă — întreabă furnizori despre conformitate și proceduri interne, dar apoi monitorizează-i continuu cu o platformă de rating. Platforma detectează amenințări pe care furnizorul nici nu le-a observat.</p><p>SecurityScorecard și BitSight sunt lideri în industrie pentru entități critice în sectoare reglementate.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">10 Întrebări Esențiale pentru Fiecare Furnizor</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Folosește tabelul de mai jos ca <strong>starting point pentru chestionarul de securitate</strong>. Adaptează după industria și tipul furnizorului. O platformă cum ar fi Reglyze poate automatiza colectarea și urmărirea răspunsurilor.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Cum să Implementezi Program de Securitate a Furnizorilor în 30 de Zile</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><strong>Ziua 1-5:</strong> Documentează <strong>toți furnizorii critici</strong> — software, cloud, IT, facilitati, servicii. Fișa de calcul și update-o pe măsură ce descoperi mai mulți.</p><p><strong>Ziua 6-10:</strong> Creează/adaptează <strong>템플릿ă de contract</strong> cu clauze de securitate. Consultă legal pentru conformitate. Reglyze și alte ISMS oferă șabloane gata.</p><p><strong>Ziua 11-15:</strong> Trimite <strong>chestionar de evaluare inițială</strong> tuturor furnizorilor critici. Setează termen de răspuns (7-10 zile).</p><p><strong>Ziua 16-20:</strong> Evaluează răspunsuri, calculează risc inițial (criticitate furnizor × risc răspunsuri). Înscrie furnizorii cu risc crescut în <a href='https://securityscorecard.com'>SecurityScorecard</a> sau BitSight.</p><p><strong>Ziua 21-25:</strong> Negociază <strong>actualizări de contract</strong> pentru furnizorii cu gapuri de securitate. Prioritizează cei critici.</p><p><strong>Ziua 26-30:</strong> Stabilește <strong>cadrul de monitoring</strong> — revizuire trimestrială a chestionarelor, monitoring continuu al scorurilor de rating, proces de raportare incident.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">De Ce Sunt Platformele de Rating (SecurityScorecard) Importante sub NIS2</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Monitorizarea manuală a 50+ furnizori este impractică. <strong>SecurityScorecard</strong> și alte platforme oferă:</p><ul><li><strong>Scoruri de risc continue</strong> — nu doar o evaluare statică o dată pe an.</li><li><strong>Alerte de risc crescut</strong> — notificări când un furnizor are probleme de securitate nou-detectate.</li><li><strong>Benchmarking industrie</strong> — compară furnizori cu pari din sector.</li><li><strong>Rapoarte de conformitate</strong> — evidență documentată pentru auditare NIS2.</li></ul><p>Pentru entități esențiale și importante, <strong>auditorii NIS2 vor verifica</strong> dacă ai proces continuu de monitoring. O platformă de rating este dovada că iei riscul de furnizor în serios.</p></div>
+        </div>
+      </section>
+
+      <section style="background:var(--gray-50);padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.2rem;margin-bottom:1rem;">10 Întrebări Critice pentru Evaluarea Furnizorilor NIS2</h2>
+          <ul style="list-style:none;padding:0;margin:0;background:#fff;border-radius:8px;padding:1rem;"><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 1. Ce standarde de securitate informații (ISO 27001, SOC 2, altele) sunt certificate sau implementate?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 2. Cum gestionezi și criptezi datele noastre în tranzit și în repaos?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 3. În ce țări sunt stocate datele noastre și cui le poți oferi acces (subcontractori, guvern)?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 4. Cât timp ia pentru a raporta un incident de securitate și care este procesul dvs. de notificare?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 5. Efectuați testări de penetrare și scanări de vulnerabilități regulate? Ce sunt rezultatele?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 6. Care este procesul dvs. de gestionare a subcontractorilor și cum verificați securitatea lor?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 7. Cum vă asigurați că administratorii și furnizorii cu acces privilegiat sunt verificați și monitorizați?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 8. Care este politica dvs. de păstrare a copiilor de siguranță și cât timp vă iau să vă recuperați după pierderi de date?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 9. Aveți un proces de răspuns la incidente și testați-l? Putem participa la exercițiile de răspuns?</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ 10. Cum notificezi clienții în caz de breșă de date și cât timp durează comunicarea în cazul unui incident grav?</li></ul>
+        </div>
+      </section>
+
+<section style="padding:2.5rem 0;background:#fff;">
+  <div class="container--narrow">
+    <h2 style="font-size:1.2rem;margin-bottom:1.25rem;">Întrebări Frecvente: NIS2 și Securitatea Lanțului de Aprovizionare</h2>
+    <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Care este diferența între Articolul 21(2)(c) și 21(2)(d)?</button>
+          <div class="faq-answer"><p>Articolul 21(2)(c) impune managementul riscurilor generale al entității. Articolul 21(2)(d) este **specific pentru riscurile furnizorilor**. Trebuie să ai ambele — un program de securitate internă general și un program dedicat de risc de furnizor cu contracte, evaluări și monitoring.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Trebuie să auditez fizic toți furnizorii?</button>
+          <div class="faq-answer"><p>Nu este obligatoriu pentru toți. Utilizează <strong>matrice de risc</strong> — auditorii fizici pentru furnizorii critici (cloud, outsource IT, date sensibile). Pentru alții, folosește chestionare și platforme de rating cum ar fi SecurityScorecard. Documentează-ți motivarea deciziei de risc.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Ce se întâmplă dacă un furnizor refuză să răspundă la chestionarul de securitate?</button>
+          <div class="faq-answer"><p>Riscul lor de securitate este considerat **necunoscut/înalt**. Escalează la management — dacă refuză transparență, aceștia sunt o problemă NIS2. Ia în considerare rescindarea contractului sau implementează controale compensatorii (monitoring mai strict, acces limitat). NIS2 permite acceptare riscului *documentat*, dar nu ignorare.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">SecurityScorecard și BitSight sunt necesare sub NIS2?</button>
+          <div class="faq-answer"><p>Nu sunt obligatorii explicit în textul NIS2. **Dar sunt **foarte recomandate* — demonstrezi monitoring continuu care auditorii cauta. Pentru 50+ furnizori, manual este ineficient. Platformele oferă dovezi de conformitate și detectează riscuri pe care chestionarele nu le găsesc.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Cine din departament ar trebui să coordoneze evaluarea furnizorilor?</button>
+          <div class="faq-answer"><p>Ideal: **Responsabil de securitate IT + Procurement + Juridic**. Securitatea IT cunoaște riscurile tehnice, Procurement gestionează relaţiile vendor și contractele, Juridic negociază clauze. Reglyze și alte platforme ISMS pot centraliza comunicarea și urmărire între departamente.</p></div>
+        </div></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Implementează Securitatea Lanțului de Aprovizionare Acum</h2>
+    <p>Articolul 21(2)(d) nu este o opțiune — este o cerință NIS2 cu sancțiuni legale. Începe cu evaluarea furnizorilor critici și stabilirea unui proces de contract. Folosește un ghid și o platformă de management pentru a scala rapid.</p>
+    <a href="kalkulator.html" class="btn btn--primary btn--lg">Obține Checklist și Șablon Contract</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__logo">NIS2<span>Instrumente</span>.ro</div>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="porownanie.html">Comparație instrumente</a>
+        <a href="kalkulator.html">Quiz</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+    <p class="footer__disclaimer">
+      Ujawnienie afiliacyjne: niektóre linki na tej stronie mogą być linkami afiliacyjnymi.
+      Treść ma charakter informacyjny i nie stanowi porady prawnej.
+    </p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>

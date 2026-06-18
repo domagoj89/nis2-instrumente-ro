@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-Q69G1L32V6');</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulamentul de Implementare (UE) 2024/2690 NIS2: Ghid Complet pentru România</title>
+  <meta name="description" content="Ghid complet al Regulamentului de Implementare (UE) 2024/2690 pentru entități critice NIS2 din România: MSP-uri, furnizori cloud, DNS și CDN.">
+  <link rel="canonical" href="https://nis2-instrumente.ro/regulament-implementare-nis2.html">
+  <meta property="og:title" content="Regulamentul de Implementare (UE) 2024/2690 NIS2: Ghid Complet pentru România">
+  <meta property="og:description" content="Ghid complet al Regulamentului de Implementare (UE) 2024/2690 pentru entități critice NIS2 din România: MSP-uri, furnizori cloud, DNS și CDN.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nis2-instrumente.ro/regulament-implementare-nis2.html">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="nis2-instrumente.ro">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Regulamentul de Implementare (UE) 2024/2690 NIS2: Ghid Complet pentru România", "description": "Ghid complet al Regulamentului de Implementare (UE) 2024/2690 pentru entități critice NIS2 din România: MSP-uri, furnizori cloud, DNS și CDN.", "author": {"@type": "Organization", "name": "nis2-instrumente.ro"}, "datePublished": "2026-06-18", "dateModified": "2026-06-18"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Sunt MSP mic cu 5 angajați și 20 de clienți. Sunt în scop sub 2024/2690?", "acceptedAnswer": {"@type": "Answer", "text": "Da. Mărimea nu importă. Dacă oferi servicii gestionate (IT support, monitorizare, backup), ești MSP și ești în scop indiferent de câți angajați ai. Clienții tăi vor cere în curând dovezi de conformitate. Recomandare: start cu Reglyze (https://reglyze.com) care are planuri pentru MSP-uri mici, apoi audit extern în 6 luni."}}, {"@type": "Question", "name": "Care este diferența dintre audit intern și audit extern pentru 2024/2690?", "acceptedAnswer": {"@type": "Answer", "text": "Audit intern: echipa ta evaluează conformitatea în baza template-urilor Reglyze. Audit extern: auditor independent acreditat DNSC evaluează dovezi și proceduri. Doar auditul extern produce certificat valabil legal și acceptat de clienți. Cost extern: 5,000–20,000 EUR anual. Obligatoriu pentru conformitate completă."}}, {"@type": "Question", "name": "Dacă am 100 de clienți, trebuie să implement 100 versiuni diferite ale controalelor?", "acceptedAnswer": {"@type": "Answer", "text": "Nu. Implementezi controale la nivel de serviciu pe care le oferi (ex: backup gestionat, monitorizare 24/7). Fiecare client beneficiază de același nivel de control. Reglyze permite o singură implementare cu rapoarte separate pe client, ceea ce reduceți munca cu 90% comparativ cu spreadsheet-uri."}}, {"@type": "Question", "name": "Ce se întâmplă dacă nu mă conformez la 2024/2690?", "acceptedAnswer": {"@type": "Answer", "text": "DNSC poate efectua inspecții și emite avertismente. Amenzi până la 10 milioane euro sau 2% din cifra de afaceri globală anual. Riscuri reputaționale: clienți se mută la competitori. Întreruperi serviciu obligatorii pentru remediare. Începe conformitatea imediat."}}, {"@type": "Question", "name": "Secfix, ISMS.online și Reglyze sunt la fel? Care să aleg?", "acceptedAnswer": {"@type": "Answer", "text": "Reglyze este optimizată pentru MSP-uri și furnizorii de servicii cloud, cu template-uri 2024/2690 și gestiune multi-client. Secfix și ISMS.online sunt mai generice, bune pentru Enterprise IT. Pentru MSP, Reglyze accelerează cu 6 luni. Compară pe (https://reglyze.com) și cere demo gratuit."}}]}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">NIS2<span>Instrumente</span>.ro</a>
+      <ul class="nav__links"><li><a href="porownanie.html">Comparație instrumente</a></li><li><a href="sektory-ksc.html">Sectoare NIS2</a></li><li><a href="kalkulator.html">Calculator NIS2</a></li><li><a href="faq.html">FAQ</a></li></ul>
+      <a href="kalkulator.html" class="nav__cta">Obține Audit Gratuit</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:1.5rem;">
+  <div class="breadcrumb">
+    <a href="index.html">Home</a><span>›</span>
+    Conformitate / Regulamente / Regulamentul de Implementare 2024/2690
+  </div>
+</div>
+
+<div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
+  <div class="container--narrow">
+    <span class="eyebrow">Conformitate NIS2</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);margin:.5rem 0 1rem;">Regulamentul de Implementare (UE) 2024/2690: Ghidul Tău de Conformitate NIS2</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);">Dacă ești furnizor de servicii cloud, MSP, DNS, CDN sau trust service provider în România, regulamentul 2024/2690 este obligatoriu pentru tine. Descoperă cele 150+ controale specifice și cum să te conformezi.</p>
+    <a href="https://reglyze.com" class="btn btn--primary" style="margin-top:1.25rem;" target="_blank" rel="nofollow noopener">Solicită Evaluare de Conformitate →</a>
+  </div>
+</div>
+
+
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Ce Este Regulamentul de Implementare (UE) 2024/2690?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><strong>Regulamentul de Implementare (UE) 2024/2690</strong>, adoptat de Comisia Europeană, stabilește măsuri tehnice și organizaționale specifice pentru o categorie strict definită de entități NIS2. Acesta <strong>nu se aplică tuturor companiilor</strong>, ci doar unor furnizori de servicii critice.</p><p>Regulamentul a intrat în vigoare pe <strong>7 ianuarie 2025</strong> și impune <strong>150+ controale tehnice și organizaționale</strong> structurate în 13 familii de controale. Spre deosebire de articolul 21 din NIS2 (care prescrie 10 măsuri generale), 2024/2690 necesită implementare detaliată și monitorizare strictă a configurațiilor, logurilor și auditelor.</p><p>România, ca stat membru al UE, aplică integral aceste cerințe. Autoritatea competentă este <strong>DNSC (Direcția Națională de Securitate Cibernetică)</strong>.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Entitățile în Scop: Cine Trebuie să se Conformeze?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Regulamentul 2024/2690 se aplică furnizorilor de servicii în următoarele categorii:</p><ul><li><strong>Furnizori DNS</strong> — gestionează resolverea numelor de domenii</li><li><strong>Registrii TLD</strong> — administrează extensii de top-level (.ro, .eu, etc.)</li><li><strong>Furnizori de servicii cloud computing</strong> — IaaS, PaaS, SaaS</li><li><strong>Servicii de centre de date</strong> — hosting și colocation</li><li><strong>Furnizori CDN</strong> — distribuție de conținut în rețea</li><li><strong>MSP-uri și MSSP-uri</strong> — Managed Service Providers și Managed Security Service Providers</li><li><strong>Furnizori de piețe online</strong> — platforme e-commerce și marketplace</li><li><strong>Motoare de căutare online</strong> — Google, Bing și echivalente</li><li><strong>Platforme de rețele sociale</strong> — Facebook, Instagram, TikTok, etc.</li><li><strong>Furnizori de servicii de încredere</strong> — CA-uri, semnături digitale</li></ul><p>Dacă activitatea ta cade în una din aceste categorii, <strong>ești deja în scop</strong>. Ignorarea cerințelor atrage amenzi până la 10 milioane euro sau 2% din cifra de afaceri globală.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">De Ce MSP-urile Sunt o Țintă Primară a Regulamentului?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>MSP-urile sunt în scop din două motive critique:</p><p><strong>1. Sunt furnizori de servicii critice.</strong> MSP-urile gestionează infrastructura IT și securitatea pentru sute de clienți. O breșă la un MSP = breșă la toți clienții. Regulamentul recunoaște această poziție și impune controale stricte.</p><p><strong>2. Clienții tăi depind de tine pentru conformitate NIS2.</strong> Articolul 18(1) din NIS2 prevede o <strong>clauză de lanț de aprovizionare</strong>: clienții tăi pot cere dovezi că tu, ca furnizor, respecti standardele de securitate. Fără controale implementate, pierzi contracte și reputație.</p><p>Reglyze (https://reglyze.com) este o <strong>platformă ISMS specializată</strong> care ajută MSP-urile să mapeze și să implementeze cele 150+ controale din 2024/2690, cu template-uri preconfigurate pentru servicii gestionate. Alte opțiuni includ ISMS.online și Secfix, dar Reglyze este optimizată pentru MSP-uri.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Cele 13 Familii de Controale: Prezentare Generală</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Regulamentul 2024/2690 grupează cele 150+ controale în 13 familii:</p><ul><li><strong>Identificare și Autentificare</strong> — MFA, gestionarea credențialelor, acces bazat pe rol</li><li><strong>Gestionare Accesului</strong> — principii de privilegiu minim, segregare de drepturi</li><li><strong>Criptografie</strong> — algoritmi, lungimi de chei, gestionarea certificatelor</li><li><strong>Gestionare Configurații</strong> — hardening, baseline-uri, versioning</li><li><strong>Monitorizare și Logging</strong> — înregistrare evenimentelor, audit trail-uri, retenție</li><li><strong>Detecție Incidente</strong> — IDS/IPS, anomalii, alertare în timp real</li><li><strong>Răspuns la Incidente</strong> — planuire, testare, comunicare cu DNSC</li><li><strong>Backup și Recuperare</strong> — RTO/RPO, testare periodică</li><li><strong>Furnitori și Terți</strong> — auditare lanț de aprovizionare, contracte SLA</li><li><strong>Deschiderea Porturilor și Serviciilor</strong> — minimalizare suprafață de atac</li><li><strong>Protecție Malware și Coduri Rău</strong> — antivirus, detecție comportament</li><li><strong>Izolarea Resurselor</strong> — virtualizare, containerizare, network segmentation</li><li><strong>Continuitate Operațională</strong> — planuri de continuitate, teste disaster recovery</li></ul></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Diferențele Cheie Față de NIS2 Standard (Articolul 21)</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>NIS2 articolul 21 prescrie 10 măsuri generale pentru <strong>toți operatorii de servicii esențiale</strong>. Regulamentul 2024/2690 merge mult mai departe:</p><ul><li><strong>Detaliere tehnică:</strong> 2024/2690 specifică exact cum să configurezi sisteme, nu doar ce obiective să atingi</li><li><strong>Monitorizare continuă:</strong> Logare detaliată a tuturor evenimentelor de securitate, cu retenție de 6 luni minim</li><li><strong>Raportare regulată:</strong> Furnizori trebuie să raporteze DNSC anual și la incidente în 24 de ore</li><li><strong>Audit extern anual:</strong> Certificare de conformitate de la auditori independenți acreditați</li><li><strong>Teste penetrare periodice:</strong> Testat de profesioniști externi cel puțin anual</li><li><strong>Planuire forțată a continuității:</strong> RTO și RPO definite contractual, teste semestriale obligatorii</li></ul><p>Dacă implementezi doar articolul 21, ești în incalce pentru 2024/2690. Necesita un efort separate de gestionare a celor 150+ controale.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Cum Reglyze Te Ajută ca MSP să Gestionezi 150+ Controale</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><a href='https://reglyze.com'>Reglyze</a> este o platformă ISMS cloud-nativă cu modul dedicat pentru <strong>MSP-uri și furnizorii de servicii cloud</strong>. Iată cum accelerează conformitatea:</p><ul><li><strong>Template-uri preconfigurate:</strong> Reglyze vine cu maparea completă a celor 150+ controale din 2024/2690, gata de adaptat la serviciile tale specifice</li><li><strong>Gestiune multi-client:</strong> Poți gestiona conformitatea pentru clienții tăi și a ta în aceeași platformă, cu rapoarte separate</li><li><strong>Automatizare logging:</strong> Integrare cu syslog, SIEM-uri și cloud providers pentru centralizarea logurilor</li><li><strong>Workflow-uri de audit:</strong> Automatizează colectarea dovezilor, asignează taskuri echipei, generează rapoarte pentru auditore</li><li><strong>Evidence trail digital:</strong> Toate acțiunile sunt înregistrate și disponibile pentru audituri externe</li></ul><p>Alte platforme (ISMS.online, Secfix) sunt mai generice. Reglyze este optimizată pentru volumul și complexitatea unui MSP cu 100+ clienți.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">5 Pași: Cum să Începi Conformitatea dacă Ești MSP?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><strong>Pasul 1: Audit de Decalaj (Gap Assessment)</strong><br>Evaluează ce controale implementezi deja. DNSC și Reglyze oferă template-uri de auto-evaluare. Típic, MSP-urile sunt 40-60% conforme inițial la configurări și logging.</p><p><strong>Pasul 2: Mapare Controale la Serviciile Tale</strong><br>Nu toate cele 150+ controale se aplică tu. MSP care oferă doar suport IT remote au altă amprentă decât MSP-uri care gestionează centre de date. Documentează care controale sunt relevante și unde sunt implementate.</p><p><strong>Pasul 3: Implementare Prioritizată</strong><br>Prioritizează controale din categoriile <em>Monitorizare, Detecție Incidente, Răspuns la Incidente</em>. Acestea sunt cele mai des verificate de auditore și cel mai critic pentru reputația ta.</p><p><strong>Pasul 4: Automatizare cu Reglyze</strong><br>Configurează Reglyze pentru a colecta dovezi automat: loguri de acces, audit-uri configurații, rapoarte teste. Reduce munca manuală cu 70%.</p><p><strong>Pasul 5: Audit Extern și Certificare</strong><br>Contractează auditor acreditat DNSC pentru a verifica conformitatea. Audit tarifă: tipic 5,000–20,000 EUR, în funcție de mărimea serviciilor. Certificatul de conformitate este proba pentru clienții tăi.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Clauza de Lanț de Aprovizionare: Ce Pot Cere Clienții Tăi?</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>Articolul 18(1) din NIS2 permite clienților tăi (în scop NIS2) să ceară dovezi că tu, ca furnizor, respecti standarde de securitate. Sub 2024/2690, aceasta înseamnă:</p><ul><li><strong>Dovezi de implementare control:</strong> Documentație, configurații, politici pentru controlele relevante serviciilor pe care le oferi</li><li><strong>Rapoarte de audit:</strong> Certificat anual de la auditor independent care confirmă conformitatea cu 2024/2690</li><li><strong>Matrice de obligații contractuale:</strong> Unde exact iei responsabilitate pentru fiecare control (ex: tu gestionezi backup-uri, client gestionează politici de parolă)</li><li><strong>Plan de răspuns la incidente:</strong> Cum vei notifica clientul la o breșă, cu timeline-uri</li><li><strong>Teste periodice:</strong> Rezultate de teste penetrare, scanări de vulnerabilități, simulări de incidente</li></ul><p>Dacă refuzi să furnizezi dovezi, clienții pot rescinde contractul. Regulamentul permite autorităților să facă verificări la furnizori pentru a asigura conformitatea lanțului de aprovizionare.</p></div>
+        </div>
+      </section>
+      <section style="padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.3rem;margin-bottom:1rem;">Calendarul și Termenele Critice</h2>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p><strong>7 ianuarie 2025:</strong> Regulamentul a intrat în vigoare. De la această dată, toate cerințele sunt obligatorii pentru entități în scop.</p><p><strong>30 iunie 2025:</strong> Termen pentru raportul anual inițial către DNSC. Chiar dacă nu ești 100% conformă, trebuie să raportezi starea și planul de conformitate.</p><p><strong>31 decembrie 2025:</strong> Termen neoficial pentru completarea implementării majorității controalelor. După aceasta, DNSC va efectua inspecții.</p><p><strong>2026 și mai departe:</strong> Audite anuale obligatorii, rapoarte de incidente în 24 de ore, teste penetrare anuale.</p><p>Recomandare: <strong>START azi.</strong> Dacă ești MSP și nu ai audit de decalaj, ești cu 3-6 luni în urmă. Fiecare lună de întârziere crește riscul unei amenzi.</p></div>
+        </div>
+      </section>
+
+      <section style="background:var(--gray-50);padding:2rem 0;">
+        <div class="container--narrow">
+          <h2 style="font-size:1.2rem;margin-bottom:1rem;">Checklist de Conformitate pentru MSP-uri</h2>
+          <ul style="list-style:none;padding:0;margin:0;background:#fff;border-radius:8px;padding:1rem;"><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Identifică categoria ta exactă (MSP, furnizor cloud, CDN, etc.) și confiră că ești în scop sub 2024/2690</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Efectuează audit de decalaj privat: unde ești 0-25%, 25-50%, 50-75%, 75-100% conformă pe fiecare familie de controale</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Documentează maparea controalelor la serviciile specifice pe care le oferi (nu toate 150+ se aplică tuturor)</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Implementează logging centralizat pentru toți utilizatorii și sisteme critice, cu retenție 6+ luni</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Configurează MFA pentru toți administratori și acces sensibil; auditează privilegii</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Creează plan de răspuns la incidente și testează-l anual; documentează procedura de notificare în 24 de ore</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Contractează auditor independent acreditat DNSC; programează audit extern în T1 2025</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Implementează Reglyze (https://reglyze.com) sau platformă ISMS similară pentru automatizarea colectării dovezilor</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Creează și testează plan de continuitate operațională cu RTO și RPO definite contractual</li><li style="padding:.4rem 0;border-bottom:1px solid #e5e7eb;font-size:.9rem;">✓ Pregătește dovezi de conformitate (certificat audit, rapoarte test penetrare) pentru furnizare clienților care le solicită</li></ul>
+        </div>
+      </section>
+
+<section style="padding:2.5rem 0;background:#fff;">
+  <div class="container--narrow">
+    <h2 style="font-size:1.2rem;margin-bottom:1.25rem;">Întrebări Frecvente despre Regulamentul de Implementare 2024/2690</h2>
+    <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">Sunt MSP mic cu 5 angajați și 20 de clienți. Sunt în scop sub 2024/2690?</button>
+          <div class="faq-answer"><p>Da. Mărimea nu importă. Dacă oferi servicii gestionate (IT support, monitorizare, backup), ești MSP și ești în scop indiferent de câți angajați ai. Clienții tăi vor cere în curând dovezi de conformitate. Recomandare: start cu Reglyze (https://reglyze.com) care are planuri pentru MSP-uri mici, apoi audit extern în 6 luni.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Care este diferența dintre audit intern și audit extern pentru 2024/2690?</button>
+          <div class="faq-answer"><p>Audit intern: echipa ta evaluează conformitatea în baza template-urilor Reglyze. Audit extern: auditor independent acreditat DNSC evaluează dovezi și proceduri. Doar auditul extern produce certificat valabil legal și acceptat de clienți. Cost extern: 5,000–20,000 EUR anual. Obligatoriu pentru conformitate completă.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Dacă am 100 de clienți, trebuie să implement 100 versiuni diferite ale controalelor?</button>
+          <div class="faq-answer"><p>Nu. Implementezi controale la nivel de serviciu pe care le oferi (ex: backup gestionat, monitorizare 24/7). Fiecare client beneficiază de același nivel de control. Reglyze permite o singură implementare cu rapoarte separate pe client, ceea ce reduceți munca cu 90% comparativ cu spreadsheet-uri.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Ce se întâmplă dacă nu mă conformez la 2024/2690?</button>
+          <div class="faq-answer"><p>DNSC poate efectua inspecții și emite avertismente. Amenzi până la 10 milioane euro sau 2% din cifra de afaceri globală anual. Riscuri reputaționale: clienți se mută la competitori. Întreruperi serviciu obligatorii pentru remediare. Începe conformitatea imediat.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Secfix, ISMS.online și Reglyze sunt la fel? Care să aleg?</button>
+          <div class="faq-answer"><p>Reglyze este optimizată pentru MSP-uri și furnizorii de servicii cloud, cu template-uri 2024/2690 și gestiune multi-client. Secfix și ISMS.online sunt mai generice, bune pentru Enterprise IT. Pentru MSP, Reglyze accelerează cu 6 luni. Compară pe (https://reglyze.com) și cere demo gratuit.</p></div>
+        </div></div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <h2>Ești Gata să te Conformezi la Regulamentul 2024/2690?</h2>
+    <p>Dacă ești MSP, furnizor cloud, CDN sau trust service provider în România, regulamentul 2024/2690 se aplică ție AZI. Fii devant competitorilor și ai acces rapid la clienți care vor servicii sigure. Solicită o evaluare gratuită de conformitate și descoperă ce trebuie să implementezi în următoarele 90 de zile.</p>
+    <a href="kalkulator.html" class="btn btn--primary btn--lg">Solicită Evaluare de Conformitate Acum</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__logo">NIS2<span>Instrumente</span>.ro</div>
+      <div class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="porownanie.html">Comparație instrumente</a>
+        <a href="kalkulator.html">Quiz</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+    </div>
+    <p class="footer__disclaimer">
+      Ujawnienie afiliacyjne: niektóre linki na tej stronie mogą być linkami afiliacyjnymi.
+      Treść ma charakter informacyjny i nie stanowi porady prawnej.
+    </p>
+  </div>
+</footer>
+
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const open = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i => i.classList.remove('open'));
+    if (!open) item.classList.add('open');
+  });
+});
+</script>
+</body>
+</html>
