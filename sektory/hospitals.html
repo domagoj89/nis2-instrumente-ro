@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q69G1L32V6');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIS2 Spitale România 2026 — Cerințe Entități Esențiale DNSC</title>
+  <meta name="description" content="Ghid NIS2 pentru spitale și clinici private din România. Obligații esențiale, raportare incidente 24-72h, segmentare rețele medicale, conformitate până 2026.">
+  <link rel="canonical" href="https://nis2-instrumente.ro/sektory/hospitals.html">
+  <meta property="og:title" content="NIS2 Spitale România 2026 — Cerințe Entități Esențiale DNSC">
+  <meta property="og:description" content="Ghid NIS2 pentru spitale și clinici private din România. Obligații esențiale, raportare incidente 24-72h, segmentare rețele medicale, conformitate până 2026.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nis2-instrumente.ro/sektory/hospitals.html">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="NIS2-Instrumente.ro">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NIS2 Spitale România 2026 — Cerințe Entități Esențiale DNSC">
+  <meta name="twitter:description" content="Ghid NIS2 pentru spitale și clinici private din România. Obligații esențiale, raportare incidente 24-72h, segmentare rețele medicale, conformitate până 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Pagina principală",
+      "item": "https://nis2-instrumente.ro/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sectoare",
+      "item": "https://nis2-instrumente.ro/sektory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "NIS2 pentru Spitale și Centre Medicale în România — Cerințe Entităților Esențiale 2026",
+      "item": "https://nis2-instrumente.ro/sektory/hospitals.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ce se întâmplă dacă un spital nu raportează un incident cibernetic DNSC în termen de 24-72 ore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neraportarea în termenul legal poate rezulta în amenzi de până la 20 de milioane lei sau 4% din cifra de afaceri (pentru entități esențiale), conform Legii 362/2022 și GDPR. DNSC poate declara spitalul neconform și impune măsuri suplimentare de remediere. În cazuri cu impact asupra pacienților (date medicale compromise, sisteme clinice offline), pot fi deschise anchete penale separate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Este obligatorie criptarea datelor pacienților în tranzit și în repaus conform NIS2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. NIS2 cere criptare pentru toate datele medicale în repaus (pe servere, backup-uri) și în tranzit (comunicații rețea). Spitalele trebuie să implementeze AES-256 pentru stocare și TLS 1.2+ pentru comunicații. Cheile de criptare trebuie gestionate cu hardware security modules (HSM) dedicate și rotite regulat conform politicilor interne."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Cum pot spitalele să se pregătească rapid pentru conformitate NIS2 până în 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pasul 1: Auditul de gap — evaluează rețelele, dispozitivele medicale și documentația existentă. Pasul 2: Segmentație rețea — izolează imediat echipamentele medicale de rețelele administrative. Pasul 3: Proceduri și instruire — documentează incident response, managementul furnizorilor și instruiește personalul. Pasul 4: Monitorizare și automație — implementează SIEM, EDR și managementul patch-urilor. Folosiți ghiduri DNSC și consultanți certificați NIS2 pentru a accelera conformitatea."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">NIS2<span>Instrumente</span>.ro</a>
+      <ul class="nav__links">
+        <li><a href="../porownanie.html">Comparație instrumente</a></li>
+        <li><a href="../kalkulator.html">Calculator NIS2</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+      </ul>
+      <a href="../kalkulator.html" class="nav__cta">Verificați dacă vă aplică →</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:1.5rem;">
+  <div class="breadcrumb">
+    <a href="../index.html">Pagina principală</a><span>›</span>
+    <a href="index.html">Sectoare</a><span>›</span>
+    NIS2 pentru Spitale și Centre Medicale în România — Cerințe Entităților Esențiale 2026
+  </div>
+</div>
+
+<!-- HERO -->
+<div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
+  <div class="container--narrow">
+    <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — Entitate Esențială (Sector Sanitar)</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Spitale și Centre Medicale în România — Cerințe Entităților Esențiale 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Ghid complet pentru manageri IT și responsabili de securitate din spitale, rețele de spitale, clinici private și centre de îngrijiri medicale specializate cu peste 50 de angajați. Aflaţi obligaţiile legale specifice sectorului sanitar sub Legea 362/2022 și cum să vă pregătiți pentru conformitatea DNSC până în 2026.</p>
+  </div>
+</div>
+
+<!-- WHO QUALIFIES -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Sunt obligate să se conformeze NIS2 spitalele, rețelele de spitale, clinicile private și centrele de îngrijiri medicale cu minimum 50 de angajați sau care deservesc populații regionale. Această clasificare include și furnizorii de servicii medicale critice care gestionează sisteme informatice conectate la rețele de telemedicină, sisteme de management al pacienților sau echipamente medicale critice (imagistică, monitorizare, laboratoare).</p>
+  </div>
+</div>
+
+<!-- OBLIGATIONS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1.25rem;">Obligații cheie NIS2 pentru acest sector</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor de Securitate către CSIRT Național</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Entitățile medicale trebuie să raporteze la CSIRT-ul din România în termen de 24 de ore după detectarea unui incident grav și cu un raport complet în 72 de ore. Pentru spitale, "grav" înseamnă orice incident care afectează disponibilitatea sistemelor de diagnostic, monitorizare pacienți sau management electronic al dosarului medical. Documentarea incidentelor trebuie să includă natura atacului, sistemele afectate, numărul de pacienți implicați și măsurile de remediere implementate.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Segmentarea și Izolarea Rețelelor Dispozitivelor Medicale</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Rețelele informatice care deservesc echipamentele medicale critice (RMN, CT, ecorafie, sisteme de monitorizare în timp real) trebuie complet segmentate de rețelele administrative și Wi-Fi de birou. Segmentarea trebuie implementată cu firewall-uri dedicate, VLAN-uri și controale de acces stricte. Nicio conexiune directă sau trecere de date sensibile dintre aceste segmente nu este permisă fără autentificare și criptare.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Managementul Securității Lanțului de Aprovizionare pentru Furnizori de Software și Dispozitive</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Spitalele și clinicile trebuie să evaluate și monitorizeze constant furnizorii de software medical, producătorii de dispozitive și prestatorii de servicii IT. Fiecare contract trebuie să includă clauze de securitate, politici de audit, cerințe de notificare a vulnerabilităților și drepturi de auditare a sistemelor furnizorului. Accesul la distanță al furnizorilor la rețelele medicale trebuie autorizat explicit, logat și revocat după finalizare.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Continuitatea Serviciilor și Planuri de Recuperare după Dezastru</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Pentru sisteme critice (dosarul electronic al pacientului, imagistică PACS, laboratoare, farmacii electronice), spitalele trebuie să mențină planuri de continuitate testate cel puțin o dată pe an. Planurile trebuie să includă RTO (Recovery Time Objective) și RPO (Recovery Point Objective) definite în funcție de impactul asupra pacienților. Backup-urile datelor medicale critice trebuie stocate offline sau în locații geografice separate și testate regulat pentru integritate.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Instruirea și Conștientizarea Personalului Clinic și Administrativ</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Toți angajații spitalelor (medici, infirmiere, personal IT, administrativ) trebuie să primească instruire anuală obligatorie în securitate cibernetică. Instruirea trebuie adaptată la rol: personalul clinic trebuie educat despre phishing medical, compromiterea conturi și raportare incidente; personalul IT trebuie informat despre patch management, segmentare rețea și managementul accesurii. Testele de phishing simulate trebuie efectuate trimestrial și rezultatele documentate.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TYPICAL GAPS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Lacune tipice de conformitate în acest sector</h2>
+  <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
+    
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sisteme Windows neactualizate pe echipamentele de imagistică (CT, RMN) și monitorizare pacienți (ECG, monitor, ventilator) – acestea rămân nevectorii pentru exploatări cunoscute și trebuie să aibă planuri de patch gestionate prin proceduri formale.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absenţa separării fizice și logice între rețelele echipamentelor medicale și Wi-Fi-ul administrativ – mulți healthcare-ri partajează același WiFi pentru clinicieni și aparate, exponând echipamentele critice la compromise din rețele necontrolate.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Accesul furnizorilor la rețelele medicale nemonitorat și neaudit – echipele de service ale producătorilor conectează echipamentele fără înregistrare, fără sfărşit de acces, fără logging și fără supervizare.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absența documentării și testării planurilor de răspuns la incidente cibernetice – spitalele nu au procedure scrise pentru escaladare, comunicare cu DNSC, izolare sisteme sau recuperare, și nu le testează niciodată în scenarii realiste.
+    </li>
+  </ul>
+</div>
+
+<!-- TOOLS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Instrumente recomandate pentru acest sector</h2>
+  <div style="display:grid;gap:1rem;">
+    
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Secfix</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">ISMS.online</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">isms.online</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Vanta</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">vanta.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem;" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Întrebări frecvente</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce se întâmplă dacă un spital nu raportează un incident cibernetic DNSC în termen de 24-72 ore?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neraportarea în termenul legal poate rezulta în amenzi de până la 20 de milioane lei sau 4% din cifra de afaceri (pentru entități esențiale), conform Legii 362/2022 și GDPR. DNSC poate declara spitalul neconform și impune măsuri suplimentare de remediere. În cazuri cu impact asupra pacienților (date medicale compromise, sisteme clinice offline), pot fi deschise anchete penale separate.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Este obligatorie criptarea datelor pacienților în tranzit și în repaus conform NIS2?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Da. NIS2 cere criptare pentru toate datele medicale în repaus (pe servere, backup-uri) și în tranzit (comunicații rețea). Spitalele trebuie să implementeze AES-256 pentru stocare și TLS 1.2+ pentru comunicații. Cheile de criptare trebuie gestionate cu hardware security modules (HSM) dedicate și rotite regulat conform politicilor interne.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cum pot spitalele să se pregătească rapid pentru conformitate NIS2 până în 2026?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Pasul 1: Auditul de gap — evaluează rețelele, dispozitivele medicale și documentația existentă. Pasul 2: Segmentație rețea — izolează imediat echipamentele medicale de rețelele administrative. Pasul 3: Proceduri și instruire — documentează incident response, managementul furnizorilor și instruiește personalul. Pasul 4: Monitorizare și automație — implementează SIEM, EDR și managementul patch-urilor. Folosiți ghiduri DNSC și consultanți certificați NIS2 pentru a accelera conformitatea.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div style="background:var(--navy);padding:3rem 1.25rem;text-align:center;margin-top:2rem;">
+  <div class="container--narrow">
+    <h2 style="color:#fff;font-size:1.4rem;margin:0 0 .75rem;">Verificați cerințele pentru organizația dvs.</h2>
+    <p style="color:rgba(255,255,255,.75);margin:0 0 1.5rem;font-size:.95rem;">
+      DNSC/NIS2 · România · 2026
+    </p>
+    <a href="../kalkulator.html" style="display:inline-block;background:#16a34a;color:#fff;padding:.85rem 2.25rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none;">
+      Lansați calculatorul →
+    </a>
+  </div>
+</div>
+
+<footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
+  <div class="container">
+    <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
+      © 2026 NIS2-Instrumente.ro · DNSC/NIS2 · DNSC
+      <br>Informacje mają charakter edukacyjny i nie stanowią porady prawnej.
+      <br><a href="../index.html" style="color:var(--gray-400);">Pagina principală</a> ·
+      <a href="index.html" style="color:var(--gray-400);">Sectoare</a> ·
+      <a href="../porownanie.html" style="color:var(--gray-400);">Comparație instrumente</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

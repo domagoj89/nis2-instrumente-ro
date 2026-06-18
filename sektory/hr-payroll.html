@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q69G1L32V6');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIS2 pentru furnizori de software HR și servicii salarizare în România 2026</title>
+  <meta name="description" content="Ghid NIS2 pentru furnizori de software HR și payroll în România. Obligații de securitate a datelor angajaților, raportare incidente, izolare tenant și control acces 2026.">
+  <link rel="canonical" href="https://nis2-instrumente.ro/sektory/hr-payroll.html">
+  <meta property="og:title" content="NIS2 pentru furnizori de software HR și servicii salarizare în România 2026">
+  <meta property="og:description" content="Ghid NIS2 pentru furnizori de software HR și payroll în România. Obligații de securitate a datelor angajaților, raportare incidente, izolare tenant și control acces 2026.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nis2-instrumente.ro/sektory/hr-payroll.html">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="NIS2-Instrumente.ro">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NIS2 pentru furnizori de software HR și servicii salarizare în România 2026">
+  <meta name="twitter:description" content="Ghid NIS2 pentru furnizori de software HR și payroll în România. Obligații de securitate a datelor angajaților, raportare incidente, izolare tenant și control acces 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Pagina principală",
+      "item": "https://nis2-instrumente.ro/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sectoare",
+      "item": "https://nis2-instrumente.ro/sektory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "NIS2 pentru furnizori de software HR și servicii de salarizare în România — Obligații și conformitate 2026",
+      "item": "https://nis2-instrumente.ro/sektory/hr-payroll.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ce înseamnă izolare tenant în contextul unei platforme SaaS de HR și cum o verific?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Izolarea tenant înseamnă că datele clienților sunt complet separate logic și fizic, astfel încât un utilizator autentificat pentru Client A nu poate vedea niciodată date ale Client B, chiar dacă ar forța parametrii de interogare. Verific prin teste penetrare unde un administrator încearcă manual să manipuleze ID-uri de tenant în requeste API sau bază de date; dacă obține date din alt tenant, izolarea a eșuat. Efectuez această verificare anual și mențin raport de testare pentru autorități."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "De ce hardware MFA este mai sigur decât MFA software (OTP în telefon) pentru administratori?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hardware MFA (chei FIDO2) nu poate fi phishing-ite întrucât nu transmite niciun cod care ar putea fi furat, iar atacatorul ar trebui să dețină fizic cheia. MFA software este vulnerabil la malware pe telefon sau la interceptare de SMS. Pentru sisteme de salarizare care gestionează date sensibile ale mai multorilor clienți, hardware MFA reduce riscul de compromis administrativ care ar putea afecta simultan toți clienții, deci este obligatoriu conform NIS2."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Care sunt penalitățile în România pentru nerespectarea obligațiilor NIS2 ca furnizor de software HR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Conform Legii 362/2022, nerespectarea obligațiilor NIS2 poate atrage amenzi de până la 2% din cifra de afaceri anuală globală, plus sancțiuni administrative și suspendarea licenței de prestare serviciu digital. Dacă incidentul a cauzat prejudiciu mai multorilor clienți, amenda poate ajunge la 4% din cifra de afaceri. Autoritatea ANRC poate declara furnizorul neconform și obliga plăți de despăgubiri către clienți dacă nu demonstreze conformitate până la 18 octombrie 2026."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">NIS2<span>Instrumente</span>.ro</a>
+      <ul class="nav__links">
+        <li><a href="../porownanie.html">Comparație instrumente</a></li>
+        <li><a href="../kalkulator.html">Calculator NIS2</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+      </ul>
+      <a href="../kalkulator.html" class="nav__cta">Verificați dacă vă aplică →</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:1.5rem;">
+  <div class="breadcrumb">
+    <a href="../index.html">Pagina principală</a><span>›</span>
+    <a href="index.html">Sectoare</a><span>›</span>
+    NIS2 pentru furnizori de software HR și servicii de salarizare în România — Obligații și conformitate 2026
+  </div>
+</div>
+
+<!-- HERO -->
+<div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
+  <div class="container--narrow">
+    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate importantă</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru furnizori de software HR și servicii de salarizare în România — Obligații și conformitate 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Această pagină adresează furnizorilor de software HR și providerilor de servicii de salarizare din România care gestionează date personale ale angajaților pentru multiple organizații. Veți afla obligațiile concrete de conformitate NIS2, riscurile specifice ale sistemelor multi-tenant și strategie pentru conformitate înainte de 18 octombrie 2026.</p>
+  </div>
+</div>
+
+<!-- WHO QUALIFIES -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Furnizorii de software HR și serviciile de salarizare care gestionează date personale ale angajaților pentru mai mult de 10 clienți organizații în România sau care procesează date pentru organizații clasificate ca entități critice sau importante. Conform Legii 362/2022, această clasificare se aplică furnizorilor digitali care prestează servicii esențiale pentru funcționarea activităților clienților și ai căror incidente pot afecta mai mulți beneficiari.</p>
+  </div>
+</div>
+
+<!-- OBLIGATIONS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1.25rem;">Obligații cheie NIS2 pentru acest sector</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Izolarea și protecția datelor clienților în sisteme multi-tenant</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați control accesului strict bazat pe rol (RBAC) pentru a asigura că datele salariale și informațiile personale ale angajaților unui client nu sunt accesibile altui client. Fiecare client trebuie să dispună de spațiu izolat la nivel de bază de date sau aplicație, cu logică de filtrare la fiecare interogare. Auditați lunar integritatea izolării prin teste de penetrare și verificări de logică de criptare pentru a confirma că o scurgere în credențialele unui administrator nu va compromite alți clienți.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Control accesului administratorilor cu autentificare multi-factor hardware</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Administratorii sistemelor de salarizare și HR trebuie să utilizeze hardware MFA (chei FIDO2 sau jetoane hardware) pentru accesul la funcții administrative, nu doar coduri SMS sau aplicații software. Orice acces administrativ la baze de date clienților, logs de audit sau setări de izolare tenant trebuie logat și revizuit zilnic. Implementați rotația obligatorie a parolelor administatorilor la 90 de zile și revocarea imediată a accesului administrativ la încetarea contractelor, cu audit de verificare a efectuării.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor de securitate conform NIS2 și GDPR dual</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate care afectează datele salariale sau informațiile personale ale angajaților la mai mult de un client trebuie raportat Autorității Naționale pentru Administrare și Reglementare în Comunicații (ANRC) în maxim 24 de ore de la detectare, și clienților afectați în 72 de ore. Trebuie să mențineți log centralizat de incidente cu data detecției, amploare estimată, clienți afectați și măsuri de remediere. Include în raport orice tip de acces neautorizat la date salariale, chiar și cazuri de expunere accidentală prin email sau transfer neencriptat.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Proces formal de ștergere și purjare a datelor clienților la încetarea contractului</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Contractele cu clienții trebuie să includă clauze care specifică timeline-ul obligatoriu pentru ștergerea completă a datelor (maxim 30 zile după încetare). Implementați procedură documentată cu verificare în trei faze: ștergere logică din aplicație, ștergere din backup-uri, și certificat final de ștergere semnat de responsabil. Mențineți înregistrare de audit a fiecărei ștergeri pentru a demonstra Autorității conformitatea cu GDPR și NIS2 în caz de control.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Documentația și testarea planului de recuperare după incident (DRP/BCP)</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să păstrați plan actualizat de recuperare după dezastre cu RTO (Recovery Time Objective) sub 8 ore și RPO (Recovery Point Objective) sub 1 oră pentru sisteme de salarizare. Testați anual acest plan cu simulări complete și documentați rezultatele. Planul trebuie să acoperă scenarii de pierdere de bază de date, acces neautorizat, criptare ransomware și defecțiuni furnizorilor de cloud. Comunicați clienților rezultatele testelor și confirmați că serviciul nu va fi întrerupt mai mult de 8 ore consecutive.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TYPICAL GAPS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Lacune tipice de conformitate în acest sector</h2>
+  <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
+    
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sisteme multi-tenant fără izolare criptografică la nivel de rând în baza de date, permițând unui administrator cu acces à o zonă să citească date din alte tenant-uri prin manipularea parametrilor de interogare.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Autentificare administratorului protejată doar cu parole și coduri OTP SMS, fără hardware MFA, exponând accesul administrativ la riscuri de phishing și SIM swapping care ar putea compromite mai mulți clienți simultanu.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Lipsa procedurilor documentate și testate pentru ștergerea datelor clienților la încetarea contractului, rezultând în persistența datelor salariale și informațiilor personale pe serverele furnizorului timp de luni de zile.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Raportarea incidentelor de securitate efectuată doar clienților afectați, fără notificare Autorității atunci când incidentul afectează mai mulți clienți și îndeplinește pragurile de raportare NIS2, violând obligația de 24 de ore.
+    </li>
+  </ul>
+</div>
+
+<!-- TOOLS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Instrumente recomandate pentru acest sector</h2>
+  <div style="display:grid;gap:1rem;">
+    
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Sprinto</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">sprinto.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Secfix</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Drata</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">drata.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem;" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Întrebări frecvente</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce înseamnă izolare tenant în contextul unei platforme SaaS de HR și cum o verific?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Izolarea tenant înseamnă că datele clienților sunt complet separate logic și fizic, astfel încât un utilizator autentificat pentru Client A nu poate vedea niciodată date ale Client B, chiar dacă ar forța parametrii de interogare. Verific prin teste penetrare unde un administrator încearcă manual să manipuleze ID-uri de tenant în requeste API sau bază de date; dacă obține date din alt tenant, izolarea a eșuat. Efectuez această verificare anual și mențin raport de testare pentru autorități.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">De ce hardware MFA este mai sigur decât MFA software (OTP în telefon) pentru administratori?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Hardware MFA (chei FIDO2) nu poate fi phishing-ite întrucât nu transmite niciun cod care ar putea fi furat, iar atacatorul ar trebui să dețină fizic cheia. MFA software este vulnerabil la malware pe telefon sau la interceptare de SMS. Pentru sisteme de salarizare care gestionează date sensibile ale mai multorilor clienți, hardware MFA reduce riscul de compromis administrativ care ar putea afecta simultan toți clienții, deci este obligatoriu conform NIS2.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile în România pentru nerespectarea obligațiilor NIS2 ca furnizor de software HR?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Conform Legii 362/2022, nerespectarea obligațiilor NIS2 poate atrage amenzi de până la 2% din cifra de afaceri anuală globală, plus sancțiuni administrative și suspendarea licenței de prestare serviciu digital. Dacă incidentul a cauzat prejudiciu mai multorilor clienți, amenda poate ajunge la 4% din cifra de afaceri. Autoritatea ANRC poate declara furnizorul neconform și obliga plăți de despăgubiri către clienți dacă nu demonstreze conformitate până la 18 octombrie 2026.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div style="background:var(--navy);padding:3rem 1.25rem;text-align:center;margin-top:2rem;">
+  <div class="container--narrow">
+    <h2 style="color:#fff;font-size:1.4rem;margin:0 0 .75rem;">Verificați cerințele pentru organizația dvs.</h2>
+    <p style="color:rgba(255,255,255,.75);margin:0 0 1.5rem;font-size:.95rem;">
+      DNSC/NIS2 · România · 2026
+    </p>
+    <a href="../kalkulator.html" style="display:inline-block;background:#16a34a;color:#fff;padding:.85rem 2.25rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none;">
+      Lansați calculatorul →
+    </a>
+  </div>
+</div>
+
+<footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
+  <div class="container">
+    <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
+      © 2026 NIS2-Instrumente.ro · DNSC/NIS2 · DNSC
+      <br>Informacje mają charakter edukacyjny i nie stanowią porady prawnej.
+      <br><a href="../index.html" style="color:var(--gray-400);">Pagina principală</a> ·
+      <a href="index.html" style="color:var(--gray-400);">Sectoare</a> ·
+      <a href="../porownanie.html" style="color:var(--gray-400);">Comparație instrumente</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>

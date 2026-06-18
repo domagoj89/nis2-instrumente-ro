@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-Q69G1L32V6');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC</title>
+  <meta name="description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <link rel="canonical" href="https://nis2-instrumente.ro/sektory/telemedicine.html">
+  <meta property="og:title" content="NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC">
+  <meta property="og:description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://nis2-instrumente.ro/sektory/telemedicine.html">
+  <meta property="og:locale" content="ro_RO">
+  <meta property="og:site_name" content="NIS2-Instrumente.ro">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC">
+  <meta name="twitter:description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Pagina principală",
+      "item": "https://nis2-instrumente.ro/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Sectoare",
+      "item": "https://nis2-instrumente.ro/sektory/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026",
+      "item": "https://nis2-instrumente.ro/sektory/telemedicine.html"
+    }
+  ]
+}
+  </script>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Care este diferența dintre obligațiile GDPR și cele NIS2 pentru platformele telehealth din România?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "GDPR reglementează protecția datelor personale și drepturile pacienților (consimțământ, drept la ștergere), iar NIS2 impune măsuri tehnice și organizatorice de securitate cibernetică pentru entitățile importante. Pentru platformele telehealth, aceasta înseamnă că GDPR cere criptare și DPA-uri, iar NIS2 cere criptare end-to-end obligatorie, raportare incidentelor în 24 de ore și planuri de continuitate a activității testate anual."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Platformele telehealth care procesează date prin cloud extern (AWS, Azure) trebuie să obțină aprobări speciale de DNSC?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nu există aprobare prealabilă de DNSC necesară, dar platformele trebuie să semneze DPA-uri cu furnizorii cloud care să detalieze locurile de procesare și garanțiile de securitate. Datele pacienților trebuie criptate înainte de încărcare, iar furnizorul cloud trebuie clasificat ca sub-processor. DNSC poate inspecta conformitatea în cadrul auditurilor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Care sunt penalitățile pentru neraportarea incidentelor de securitate către DNSC în termen de 24 de ore?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Neraportarea sau raportarea târzie a incidentelor care afectează continuitatea îngrijirii pacienților este sancționată cu amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală anuală, oricare este mai mare. Suplimentar, DNSC poate impune măsuri corective obligatorii și suspenderea parțială a serviciilor digitale până la remedierea incidentului."
+      }
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="container">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__logo">NIS2<span>Instrumente</span>.ro</a>
+      <ul class="nav__links">
+        <li><a href="../porownanie.html">Comparație instrumente</a></li>
+        <li><a href="../kalkulator.html">Calculator NIS2</a></li>
+        <li><a href="../faq.html">FAQ</a></li>
+      </ul>
+      <a href="../kalkulator.html" class="nav__cta">Verificați dacă vă aplică →</a>
+    </div>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:1.5rem;">
+  <div class="breadcrumb">
+    <a href="../index.html">Pagina principală</a><span>›</span>
+    <a href="index.html">Sectoare</a><span>›</span>
+    NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026
+  </div>
+</div>
+
+<!-- HERO -->
+<div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
+  <div class="container--narrow">
+    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate Importantă</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid este destinat operatorilor de platforme telehealth, serviciilor de monitorizare la distanță și aplicațiilor de sănătate digitală clasificate ca entități importante în România. Veți înțelege obligațiile specifice de securitate a datelor pacienților, alinierea GDPR+NIS2 și cerințele de raportare a incidentelor care afectează continuitatea îngrijirii.</p>
+  </div>
+</div>
+
+<!-- WHO QUALIFIES -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Platformele de teleconsultație, serviciile de monitorizare la distanță a pacienților și aplicațiile de sănătate digitală care procesează date de sănătate sensibile și au minim 50 de angajați sau încasări anuale de cel puțin 10 milioane EUR sunt clasificate ca entități importante în baza NIS2. Această clasificare include și operatorii care furnizează servicii esențiale pentru sisteme spitalicești și centre medicale, indiferent de dimensiunea lor, dacă întreruperea serviciului ar afecta furnizarea de îngrijiri medicale.</p>
+  </div>
+</div>
+
+<!-- OBLIGATIONS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1.25rem;">Obligații cheie NIS2 pentru acest sector</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Criptare End-to-End a Consultațiilor Video și Mesajelor de Sănătate</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platformele telehealth trebuie să implementeze criptare end-to-end obligatorie pentru toate consultațiile video și mesajele dintre pacienți și profesioniști medicali. Aceasta înseamnă că nici operatorul platformei, nici furnizorii terți de hosting nu pot accesa conținutul comunicării. Certificatele TLS 1.2 sau superior sunt insuficiente; trebuie implementată criptare de nivel aplicație cu chei gestionate separat de platforma de transmisie.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Acorduri de Prelucrare a Datelor cu Toți Sub-Procesatorii și Integratorii</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Fiecare operator de platformă trebuie să semneze acorduri formale de prelucrare a datelor (DPA) cu toți sub-procesatorii, inclusiv furnizorii de stocare cloud, furnizori de analytics, și sistemele de integrare cu EHR-urile spitalicești. Acordurile trebuie să detalieze locurile de procesare, durata retenției datelor și garanțiile de securitate. Omiterea unui singur sub-processor expune platforma la incalcări de GDPR și NIS2.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Testare de Penetrare Anuală și Evaluări de Vulnerabilitate pentru Aplicații Mobile</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Aplicațiile mobile de sănătate și interfețele web ale platformelor telehealth trebuie supuse testărilor de penetrare efectuate de terți independenți cel puțin o dată pe an. Rapoartele trebuie să acopere vulnerabilități de autentificare, valori ale sesiunilor, injecție SQL, și gestionarea certificatelor. Defectele descoperite trebuie corectate în termen de 30 de zile, cu dovezi documentate.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor de Securitate care Afectează Continuitatea Îngrijirii</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate (atac cibernetic, pană de sistem, scurgere de date) care întrerupe accesul pacienților la serviciile de teleconsultație sau monitorizare la distanță trebuie raportat DNSC în termen de maximum 24 de ore. Raportul trebuie să includă descrierea incidentului, numărul de pacienți afectați, măsurile de remediere și durata timpului de inactivitate a serviciului.</p>
+      </div>
+    </div>
+    <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
+      <div style="flex-shrink:0;width:24px;height:24px;background:var(--green);border-radius:50%;display:flex;align-items:center;justify-content:center;margin-top:2px;">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <strong style="color:var(--navy);font-size:.95rem;">Plan de Continuitate a Activității și Recuperare în Caz de Dezastru</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platformele telehealth trebuie să menține planuri formale de continuitate a activității (BCP) și recuperare în caz de dezastru (DRP) care garantează reactivarea serviciilor în maxim 4 ore după o întrerupere majore. Planurile trebuie testate prin simulări cel puțin o dată la 12 luni, cu inregistrări și rezultate documentate. Trebuie identificate sisteme de backup și centre alternative de operare.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TYPICAL GAPS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Lacune tipice de conformitate în acest sector</h2>
+  <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
+    
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Platformele de consultație video utilizează doar criptare în tranzit (HTTPS) fără criptare end-to-end, permițând operatorului să vizioneze conversații pacienților.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Aplicațiile mobile de sănătate nu sunt incluse în programele regulate de testare de securitate, lăsând vulnerabilități în autentificare și stocare locală de date sensibile.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Acordurile de prelucrare a datelor lipsesc cu mai mulți sub-procesatori (furnizori analytics, platforme de notificări push, servicii de email) ceea ce încalcă GDPR și NIS2.
+    </li>
+    <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Planurile de continuitate a activității nu specifică time-to-recovery măsurabil și nu sunt testate prin simulări reale, lăsând platformele nepregatite pentru întreruperi.
+    </li>
+  </ul>
+</div>
+
+<!-- TOOLS -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Instrumente recomandate pentru acest sector</h2>
+  <div style="display:grid;gap:1rem;">
+    
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Sprinto</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">sprinto.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Secfix</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+    <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
+        <strong style="color:var(--navy);font-size:1rem;">Drata</strong>
+        <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">drata.com</span>
+      </div>
+      <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
+      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+    </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="container--narrow" style="padding:2.5rem 1.25rem;" itemscope itemtype="https://schema.org/FAQPage">
+  <h2 style="font-size:1.3rem;color:var(--navy);margin:0 0 1rem;">Întrebări frecvente</h2>
+  <div style="border-top:1px solid var(--gray-100);">
+    
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre obligațiile GDPR și cele NIS2 pentru platformele telehealth din România?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">GDPR reglementează protecția datelor personale și drepturile pacienților (consimțământ, drept la ștergere), iar NIS2 impune măsuri tehnice și organizatorice de securitate cibernetică pentru entitățile importante. Pentru platformele telehealth, aceasta înseamnă că GDPR cere criptare și DPA-uri, iar NIS2 cere criptare end-to-end obligatorie, raportare incidentelor în 24 de ore și planuri de continuitate a activității testate anual.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Platformele telehealth care procesează date prin cloud extern (AWS, Azure) trebuie să obțină aprobări speciale de DNSC?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Nu există aprobare prealabilă de DNSC necesară, dar platformele trebuie să semneze DPA-uri cu furnizorii cloud care să detalieze locurile de procesare și garanțiile de securitate. Datele pacienților trebuie criptate înainte de încărcare, iar furnizorul cloud trebuie clasificat ca sub-processor. DNSC poate inspecta conformitatea în cadrul auditurilor.</p>
+    </div>
+  </div>
+  <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile pentru neraportarea incidentelor de securitate către DNSC în termen de 24 de ore?</h3>
+    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neraportarea sau raportarea târzie a incidentelor care afectează continuitatea îngrijirii pacienților este sancționată cu amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală anuală, oricare este mai mare. Suplimentar, DNSC poate impune măsuri corective obligatorii și suspenderea parțială a serviciilor digitale până la remedierea incidentului.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div style="background:var(--navy);padding:3rem 1.25rem;text-align:center;margin-top:2rem;">
+  <div class="container--narrow">
+    <h2 style="color:#fff;font-size:1.4rem;margin:0 0 .75rem;">Verificați cerințele pentru organizația dvs.</h2>
+    <p style="color:rgba(255,255,255,.75);margin:0 0 1.5rem;font-size:.95rem;">
+      DNSC/NIS2 · România · 2026
+    </p>
+    <a href="../kalkulator.html" style="display:inline-block;background:#16a34a;color:#fff;padding:.85rem 2.25rem;border-radius:8px;font-weight:700;font-size:1rem;text-decoration:none;">
+      Lansați calculatorul →
+    </a>
+  </div>
+</div>
+
+<footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
+  <div class="container">
+    <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
+      © 2026 NIS2-Instrumente.ro · DNSC/NIS2 · DNSC
+      <br>Informacje mają charakter edukacyjny i nie stanowią porady prawnej.
+      <br><a href="../index.html" style="color:var(--gray-400);">Pagina principală</a> ·
+      <a href="index.html" style="color:var(--gray-400);">Sectoare</a> ·
+      <a href="../porownanie.html" style="color:var(--gray-400);">Comparație instrumente</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
