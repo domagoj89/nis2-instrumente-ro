@@ -1,0 +1,29 @@
+# NIS2-Instrumente.ro
+
+> The only Romanian-language independent comparison hub for NIS2 compliance tools, helping Romanian companies cut through vendor noise and choose the right cybersecurity software to meet DNSC obligations before the 2026 enforcement deadline
+
+NIS2-Instrumente.ro covers Cybersecurity Compliance (NIS2 Directive Tooling & Software Reviews for Romanian Enterprises) for RO.
+
+## Key pages
+- [Home](https://nis2-instrumente.ro/): NIS2-Instrumente.ro — NIS2 Directive Tooling & Software Reviews for Romanian Enterprises
+- [Asigurarea Cyber în Contextul NIS2 pentru Companii din România](https://nis2-instrumente.ro/asigurare-cyber.html)
+- [Calculator de amenzi LSPC/NIS2](https://nis2-instrumente.ro/calculator-amenzi.html)
+- [Calculator NIS2 2026](https://nis2-instrumente.ro/calculator.html)
+- [ISO 27001 și NIS2: Cum se completează certificarea de securitate](https://nis2-instrumente.ro/certificare-iso-27001.html)
+- [10 cele mai bune instrumente NIS2 2026](https://nis2-instrumente.ro/comparatie.html)
+- [FAQ NIS2 România 2026](https://nis2-instrumente.ro/faq.html)
+- [Înregistrare NIS2 la DNSC](https://nis2-instrumente.ro/inregistrare-nis2.html)
+- [Metodologie de evaluare și politică de afiliere](https://nis2-instrumente.ro/metodologie.html)
+- [Regulamentul de Implementare (UE) 2024/2690 NIS2: Ghid Complet pentru România](https://nis2-instrumente.ro/regulament-implementare-nis2.html)
+- [Sectoare acoperite de NIS2 în România 2026 – lista completă Anexa I și II](https://nis2-instrumente.ro/sectoare-nis2.html)
+- [Securitatea Lanțului de Aprovizionare NIS2: Ghid Articolul 21(2)(d)](https://nis2-instrumente.ro/securitatea-lantului-de-aprovizionare.html)
+- [Testarea de penetrare NIS2: Cerințe legale și implementare](https://nis2-instrumente.ro/testare-penetrare.html)
+- [Instruiri NIS2 Obligatorii pentru Conducerea și Angajații Dvs.](https://nis2-instrumente.ro/training-nis2.html)
+
+## Collections
+- [instrumente/](https://nis2-instrumente.ro/instrumente/): 15 pages
+- [sektory/](https://nis2-instrumente.ro/sektory/): 31 pages
+
+## Notes
+- Independent, ro-language resource.
+- Content is free to cite with attribution + a link.
