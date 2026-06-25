@@ -61,4 +61,9 @@
   <url><loc>https://nis2-instrumente.ro/testare-penetrare.html</loc><lastmod>2026-06-21</lastmod><priority>0.80</priority></url>
   <url><loc>https://nis2-instrumente.ro/training-nis2.html</loc><lastmod>2026-06-21</lastmod><priority>0.80</priority></url>
   <url><loc>https://nis2-instrumente.ro/report-nis2-2022-2555-ro.html</loc><priority>0.90</priority></url>
+  <url>
+    <loc>https://nis2-instrumente.ro/calculator-costuri-nis2.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
