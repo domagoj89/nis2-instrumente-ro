@@ -78,6 +78,11 @@ const MAP = {
     "url": "https://equalizedigital.com/accessibility-checker/?ref=partnerships@nis2-narzedzia.pl",
     "direct": "https://equalizedigital.com/",
     "subid_param": "subid"
+  },
+  "secureframe": {
+    "url": "",
+    "direct": "https://secureframe.com/",
+    "subid_param": "gsxid"
   }
 };
 const GA = {"mid": "G-Q69G1L32V6", "secret": "vTv-TPqNTo-v_NF1smf-Rg"};
