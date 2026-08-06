@@ -11,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 pentru transportatori și operatori portuari în România — Ghidul 2026</title>
-  <meta name="description" content="Obligații NIS2 pentru companii aeriene, operatori feroviari, autorități rutiere și portuare în România. Conformitate până în octombrie 2026.">
+  <title>NIS2 pentru Transport — Ghid Compliență Operatori România 2026</title>
+  <meta name="description" content="Obligații NIS2 pentru liniile aeriene, operatori feroviari, autorități transport rutier, companii maritime și porturi în România. Deadline 2026, raportare incidente 72 ore.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/transport.html">
-  <meta property="og:title" content="NIS2 pentru transportatori și operatori portuari în România — Ghidul 2026">
-  <meta property="og:description" content="Obligații NIS2 pentru companii aeriene, operatori feroviari, autorități rutiere și portuare în România. Conformitate până în octombrie 2026.">
+  <meta property="og:title" content="NIS2 pentru Transport — Ghid Compliență Operatori România 2026">
+  <meta property="og:description" content="Obligații NIS2 pentru liniile aeriene, operatori feroviari, autorități transport rutier, companii maritime și porturi în România. Deadline 2026, raportare incidente 72 ore.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/transport.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 pentru transportatori și operatori portuari în România — Ghidul 2026">
-  <meta name="twitter:description" content="Obligații NIS2 pentru companii aeriene, operatori feroviari, autorități rutiere și portuare în România. Conformitate până în octombrie 2026.">
+  <meta name="twitter:title" content="NIS2 pentru Transport — Ghid Compliență Operatori România 2026">
+  <meta name="twitter:description" content="Obligații NIS2 pentru liniile aeriene, operatori feroviari, autorități transport rutier, companii maritime și porturi în România. Deadline 2026, raportare incidente 72 ore.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -46,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru companii aeriene, operatori feroviari, transportatori rutieri și operatori portuari în România — Cerințe de conformitate 2026",
+      "name": "NIS2 pentru Sectorul Transportului în România — Cerințe Esențiale și Termen 2026",
       "item": "https://nis2-instrumente.ro/sektory/transport.html"
     }
   ]
@@ -59,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Ce se întâmplă dacă nu raportez un incident de securitate cibernetică la timp?",
+      "name": "Care este diferența între avertismentul timpuriu (24 ore) și notificarea formală (72 ore) la DNSC?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Neraportarea unui incident de securitate cibernetică în termen de 24 de ore constituie o încălcare a Legii 362/2022 și poate atrage amenzi de până la 10% din cifra de afaceri anuală sau sancțiuni administrative. Pentru entități esențiale din sectorul transportului, impactul asupra siguranței pasagerilor poate atrage și responsabilitate penală."
+        "text": "Avertismentul timpuriu (primele 24 de ore) este o notificare preliminară că a avut loc un incident care ar putea afecta serviciile de transport; notificarea formală în 72 de ore trebuie să includă descrierea tehnică completă, impactul și măsurile de remediere. Nerespectarea termenului de 72 de ore pentru entități esențiale atrage amendă de până la 10 milioane de euro sau 2% din cifra de afaceri."
       }
     },
     {
       "@type": "Question",
-      "name": "Care este diferența dintre o entitate esențială și o entitate important în contextul NIS2 pentru transporturi?",
+      "name": "Cum trebuie să protejez datele pasagerilor în sistemele de rezervări legacy care nu au criptare nativă?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Entitățile esențiale (cum sunt companiile aeriene și operatorii portuari) trebuie să implementeze din 19 octombrie 2024 un nivel ridicat de securitate cibernetică și raportare. Entitățile importante au termen până în octombrie 2025 și necesită măsuri mai puțin riguroase. Entitățile esențiale sunt supuse unor inspecții mai frecvente și unor cerințe mai stricte de audit."
+        "text": "Trebuie să implementați o rețea privată virtuală (VPN) cu criptare IKEv2 sau TLS 1.3 pentru toate conexiunile către sistemul de rezervări, să voi izolați baza de date cu parolă în rețea segmentată și să instalați o soluție de Data Loss Prevention (DLP) care să monitorizeze și să blocheze exportul de date neautorizate. Migrarea către o platformă modernă ar trebui planificată în termen de 18 luni."
       }
     },
     {
       "@type": "Question",
-      "name": "Trebuie să criptez comunicațiile dintre sistemele ATC și platformele externe?",
+      "name": "Care sunt penalitățile pentru nerespectarea NIS2 în sectorul transportului?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Da, conform cerințelor NIS2 pentru sistemele critice operaționale, toate comunicațiile dintre sistemele de control trafic aerian și orice sisteme externe trebuie criptate cu algoritmi aprobați (minim TLS 1.2 sau superior). Trebuie, de asemenea, să implementați validarea integrității datelor și să monitorizați pentru tentative neautorizate de acces."
+        "text": "Entitățile esențiale (inclusiv liniile aeriene, operatorii feroviari și portuari) risipă amenzi de până la 10 milioane de euro sau 2% din cifra de afaceri anuală globală pentru nerespectarea obligațiilor principale; pentru entități importante, penalitatea este de până la 7 milioane de euro sau 1,4% din cifra de afaceri. Penalitățile suplimentare se aplică pentru neraportarea incidentelor în termenul de 72 de ore."
       }
     }
   ]
@@ -105,23 +105,23 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru companii aeriene, operatori feroviari, transportatori rutieri și operatori portuari în România — Cerințe de conformitate 2026
+    NIS2 pentru Sectorul Transportului în România — Cerințe Esențiale și Termen 2026
   </div>
 </div>
 
 <!-- HERO -->
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
-    <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — Entitate esențială</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru companii aeriene, operatori feroviari, transportatori rutieri și operatori portuari în România — Cerințe de conformitate 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Această pagină este destinată responsabililor cu securitatea cibernetică și compliance din sectorul transporturilor și portuar din România. Veți afla ce obligații specifice vine cu clasificarea de entitate esențială și cum să implementați măsuri concrete pentru protejarea sistemelor operaționale critice.</p>
+    <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — Entitate Esențială</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Sectorul Transportului în România — Cerințe Esențiale și Termen 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid este destinat directorilor de securitate cibernetică, responsabililor de operațiuni IT/OT și managerilor de conformitate din liniile aeriene, transportul feroviar, rutier, maritim și administrațiile portuare. Veți afla obligațiile legale specifice, riscurile operaționale și pașii practici pentru conformitate cu OUG 155/2024 și Legea 124/2025.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Sunt supuse regulamentului NIS2 companiile aeriene care operează zboruri comerciale, operatorii de servicii feroviare, autoritățile de transport rutier responsabile cu infrastructura critică, companiile de transport maritim și operatorii de terminale portuare din România. Aceste organizații, indiferent de dimensiune, sunt clasificate ca entități esențiale conform Legii 362/2022 datorită impactului critic asupra mobilității și siguranței călătorilor.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Orice linie aeriană care operează în România, operator feroviar cu servicii interurbane, autoritate responsabilă cu infrastructura rutieră, companie maritimă cu nave comerciale și operator de port maritime sau fluvial se află sub regimul NIS2. Criteriul nu este mărimea cifrei de afaceri, ci rolul critic în lanțul de transport și impactul asupra securității pasagerilor și aprovizionării transfrontaliere.</p>
   </div>
 </div>
 
@@ -135,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea sistemelor operaționale și de coordonare ATC</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați controale de securitate pentru sistemele de control trafic aerian, sisteme de gestionare a flotelor și platformele de rezervare bilete. Aceasta include segmentarea rețelei IT/OT, autentificare multifactor pentru acces administrativ și monitorizare continuă a anomaliilor în sistemele critice care afectează siguranța pasagerilor și operațiunile transfrontaliere.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitatea sistemelor operaționale critice</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să asigurați controlul de acces multi-factor, criptare end-to-end și monitorizare continuă pentru sistemele de trafic aerian (ATC), rezervări de bilete, gestiune flotă și sisteme de managementul incidentelor. Orice întrerupere în aceste sisteme trebuie detectată în timp real și raportată autorităților în maxim 72 de ore dacă afectează siguranța pasagerilor sau transportul transfrontalier.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -144,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor cu impact asupra transportului transfrontalier</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate cibernetică care perturbă serviciile de pasageri sau afectează operațiunile transfrontaliere trebuie raportate autorității DNSC în termen de 24 de ore de la descoperire. Raportul trebuie să conțină descrierea incidentului, sistemele afectate, impactul asupra pasagerilor și măsurile de remediere inițiate.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor cibernetice către DNSC</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate care afectează disponibilitatea serviciilor de transport, integritatea datelor pasagerilor sau controlul operațional trebuie raportat prin avertisment timpuriu în 24 de ore și notificare formală în 72 de ore la Directoratul Național de Securitate Cibernetică (DNSC). Nerespectarea acestor termene atrage penalizări de până la 10 milioane de euro sau 2% din cifra de afaceri anuală pentru entități esențiale.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -153,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea lanțului de aprovizionare pentru software-ul avionic și critic de siguranță</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să efectuați evaluări de risc pentru toți furnizorii de software avionic și sisteme critice de siguranță. Implementați contracte cu clauze de securitate cibernetică obligatorie, auditați codul sursă pentru vulnerabilități și asigurați că furnizorii au certificări de conformitate NIS2 sau echivalente.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitatea lanțului de aprovizionare pentru software și hardware critic</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să verificați și monitorizați furnizorii de avionică, software-ul sistemelor de control al traficului, componentele sistemelor de rezervări și echipamentele pentru gestionarea flotei. Includeți în contracte clauze de audit de securitate, notificarea incidentelor și obligații de remediare în termen de 30 de zile; auditați furnizori critici cel puțin o dată pe an.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -162,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Cyber-reziliența sistemelor de rezervare și ticketing</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Sistemele de rezervare bilete și ticketing trebuie protejate cu cel mai înalt nivel de control cibernetic, inclusiv criptare end-to-end, testare regulată de penetrare și planuri de continuitate a activității. Orice sistem moștenit care nu respectă standardele moderne de securitate trebuie modernizat sau înlocuit înainte de martie 2026.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Protecția graniței IT/OT și continuitatea operațiunilor</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Separați fizic și logic rețelele informatice (IT) de sistemele operaționale de control (OT) folosind firewall-uri și segmentare de rețea. Implementați criptare a comunicațiilor între sisteme, controlul versiunilor software pentru sistemele embedded și un plan de recuperare în caz de dezastru testat anual pentru a asigura revenirea în serviciu în maxim 4 ore pentru funcțiile critice.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -171,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Formarea și conștientizarea în domeniul securității cibernetice pentru personal operațional</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Personalul operațional care lucrează la sisteme critice (piloți, conductori, operatori de port) trebuie să urmeze programe de formare periodică în securitatea cibernetică. Trebuie să fie instruiți cum să recunoască amenințările cibernetice, să raporteze incidentele și să respecte protocoalele de siguranță specifice rolului.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Instruire și conștientizare în securitate cibernetică</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Toți angajații implicați în operațiuni (piloți, mecanici, controlori de trafic, operatori de port) trebuie să primească o formare inițială de securitate cibernetică și reciclare anuală. Formare trebuie să acopere recunoașterea phishing-ului, manipularea sigură a parolelor, raportarea incidentelor suspecte și protejarea datelor sensitive ale pasagerilor și ale operațiunilor.</p>
       </div>
     </div>
   </div>
@@ -184,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sistemele moștenite de rezervare și ticketing nu sunt acoperite de standarde moderne de securitate și nu beneficiază de actualizări de securitate regulate, creând vulnerabilități critice.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sistemele de rezervări și ticketing moștenite din decadele anterioare nu dispun de module de autentificare multi-factor sau criptare a datelor în tranzit, expunând informațiile pasagerilor la vol de identitate și fraudă.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Monitorizarea insuficientă a granței IT/OT în sistemele de gestionare a flotelor de vehicule, permițând penetrări care afectează operațiunile fizice.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Monitorizarea granței IT/OT în sistemele de gestionare a flotei și control al motoarelor lipsește de log-uri centralizate, ceea ce face ca modificările neautorizate ale configurației să treacă nedetectate vreme de luni.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absence programelor formale de instruire în securitatea cibernetică pentru personalul operațional, care nu poate identifica sau raporta amenințări.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Echipele operaționale primesc puțină sau nici o instruire în identificarea încercărilor de inginerie socială sau a semnelor de compromis cibernetic, lăsând porți deschise pentru atacuri direcționate.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Contracte cu furnizorii de software avionic și sisteme de siguranță care nu includ cerințe de audit de securitate cibernetică sau clauze de conformitate NIS2.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Planurile de răspuns la incidente nu includ canale dedicate de comunicare cu DNSC și proceduri de izolare a sistemelor, ceea ce duce la raportări cu întârziere și la păstrarea mai lungă a accesuluior atacatorilor.
     </li>
   </ul>
 </div>
@@ -209,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -217,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">isms.online</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -225,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">vanta.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -236,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce se întâmplă dacă nu raportez un incident de securitate cibernetică la timp?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența între avertismentul timpuriu (24 ore) și notificarea formală (72 ore) la DNSC?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neraportarea unui incident de securitate cibernetică în termen de 24 de ore constituie o încălcare a Legii 362/2022 și poate atrage amenzi de până la 10% din cifra de afaceri anuală sau sancțiuni administrative. Pentru entități esențiale din sectorul transportului, impactul asupra siguranței pasagerilor poate atrage și responsabilitate penală.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Avertismentul timpuriu (primele 24 de ore) este o notificare preliminară că a avut loc un incident care ar putea afecta serviciile de transport; notificarea formală în 72 de ore trebuie să includă descrierea tehnică completă, impactul și măsurile de remediere. Nerespectarea termenului de 72 de ore pentru entități esențiale atrage amendă de până la 10 milioane de euro sau 2% din cifra de afaceri.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre o entitate esențială și o entitate important în contextul NIS2 pentru transporturi?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cum trebuie să protejez datele pasagerilor în sistemele de rezervări legacy care nu au criptare nativă?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Entitățile esențiale (cum sunt companiile aeriene și operatorii portuari) trebuie să implementeze din 19 octombrie 2024 un nivel ridicat de securitate cibernetică și raportare. Entitățile importante au termen până în octombrie 2025 și necesită măsuri mai puțin riguroase. Entitățile esențiale sunt supuse unor inspecții mai frecvente și unor cerințe mai stricte de audit.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Trebuie să implementați o rețea privată virtuală (VPN) cu criptare IKEv2 sau TLS 1.3 pentru toate conexiunile către sistemul de rezervări, să voi izolați baza de date cu parolă în rețea segmentată și să instalați o soluție de Data Loss Prevention (DLP) care să monitorizeze și să blocheze exportul de date neautorizate. Migrarea către o platformă modernă ar trebui planificată în termen de 18 luni.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Trebuie să criptez comunicațiile dintre sistemele ATC și platformele externe?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile pentru nerespectarea NIS2 în sectorul transportului?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Da, conform cerințelor NIS2 pentru sistemele critice operaționale, toate comunicațiile dintre sistemele de control trafic aerian și orice sisteme externe trebuie criptate cu algoritmi aprobați (minim TLS 1.2 sau superior). Trebuie, de asemenea, să implementați validarea integrității datelor și să monitorizați pentru tentative neautorizate de acces.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Entitățile esențiale (inclusiv liniile aeriene, operatorii feroviari și portuari) risipă amenzi de până la 10 milioane de euro sau 2% din cifra de afaceri anuală globală pentru nerespectarea obligațiilor principale; pentru entități importante, penalitatea este de până la 7 milioane de euro sau 1,4% din cifra de afaceri. Penalitățile suplimentare se aplică pentru neraportarea incidentelor în termenul de 72 de ore.</p>
     </div>
   </div>
   </div>
@@ -269,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="waste-management.html">NIS2 pentru Operatori de Deșeuri în România</a></li><li style="margin:0"><a href="water.html">NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă</a></li><li style="margin:0"><a href="accountants.html">NIS2 pentru firme de contabilitate în România</a></li><li style="margin:0"><a href="banks.html">NIS2 Bănci și Instituții de Credit România 2026 - Cerințe Esențiale</a></li><li style="margin:0"><a href="cloud-providers.html">NIS2 pentru furnizori de servicii cloud în România 2026</a></li><li style="margin:0"><a href="construction.html">NIS2 Constructii Mari Romania 2026 - Conformitate DNSC</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -283,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>

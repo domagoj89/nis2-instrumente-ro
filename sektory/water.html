@@ -11,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă</title>
-  <meta name="description" content="Ghid complet NIS2/Legea 362/2022 pentru furnizori apă și operatori tratare. Obligații SCADA, raportare incidente, deadline 2026.">
+  <title>NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate</title>
+  <meta name="description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/water.html">
-  <meta property="og:title" content="NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă">
-  <meta property="og:description" content="Ghid complet NIS2/Legea 362/2022 pentru furnizori apă și operatori tratare. Obligații SCADA, raportare incidente, deadline 2026.">
+  <meta property="og:title" content="NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate">
+  <meta property="og:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/water.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă">
-  <meta name="twitter:description" content="Ghid complet NIS2/Legea 362/2022 pentru furnizori apă și operatori tratare. Obligații SCADA, raportare incidente, deadline 2026.">
+  <meta name="twitter:title" content="NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate">
+  <meta name="twitter:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -46,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru furnizori de apă potabilă și operatori de tratare în România — Cerințe obligatorii 2026",
+      "name": "NIS2 pentru furnizori de apă potabilă și operatori de tratare ape uzate în România — Cerințe 2026",
       "item": "https://nis2-instrumente.ro/sektory/water.html"
     }
   ]
@@ -59,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Care este diferența între obligațiile de conformitate pentru furnizorii de apă cu peste 50.000 locuitori și operatorii mai mici?",
+      "name": "Care sunt pragurile dimensionale pentru a fi considerat entitate esențială în sectorul apei?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Furnizorii care deservesc peste 50.000 locuitori sunt clasificați ca entități esențiale și trebuie să implementeze măsuri NIS2 complete, inclusiv SCADA securizat, raportare de incidente și audit anual. Operatorii mai mici sunt clasificați ca operatori importanți și trebuie să respecte o versiune simplificată a cerințelor, cum ar fi o evaluare de bază a riscurilor și un plan de continuitate cu timp de recuperare mai prelungit."
+        "text": "Toți furnizorii de apă potabilă și operatorii de tratare a apelor uzate care deservesc populații semnificative sunt clasificați automat ca entități esențiale conform Anexei I a NIS2. Nu există prag numeric de populație în normele actuale; DNSC determină calitatea esențială pe bază de impact asupra funcționării critice a serviciului apei în teritoriul administrativ."
       }
     },
     {
       "@type": "Question",
-      "name": "Ce se întâmplă dacă un sistem SCADA este compromis și afectează furnizarea de apă pentru câteva ore?",
+      "name": "Ce trebuie să includ în planul de recuperare după dezastre pentru sisteme de control al apei?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Incidentul trebuie raportat DNSC în termen de maximum 72 de ore, cu detalii despre cauza, amploarea și durata întreruperii. Nerespectarea acestei obligații atrage amenzi de până la 5% din cifra de afaceri anuală. În paralel, operatorul trebuie să inițieze investigație forensică și să implementeze măsuri de remediere pentru a preveni repetiția."
+        "text": "Planul trebuie să descrie proceduri de failover pentru fiecare componentă critică (SCADA, sisteme de dozare, stații de pompare), să specifice RTO maxim de 4 ore și RPO maxim de 1 oră pentru date, și să includă teste anuale cu documentare a rezultatelor. Backup-urile offline ale configurațiilor SCADA și parole de administrator trebuie stocate în seif fizic acces restricționat, iar copii digitale criptate trebuie păstrate în locație geografic disparată."
       }
     },
     {
       "@type": "Question",
-      "name": "Care sunt penalitățile pentru neimplementarea securității SCADA și a protecției sistemelor chimice?",
+      "name": "Care sunt penalitățile și termenele de raportare a incidentelor potrivit legii 124/2025?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Neconformitatea cu obligațiile NIS2 poate genera amenzi de 2-5% din cifra de afaceri anuală, în funcție de gravitatea incidentului și impactul asupra populației. Pentru entități esențiale, lipsa implementării SCADA securizat în termenul stabilit (septembrie 2026) atrage penalități administrative și posibile sancțiuni penale pentru leadership, plus suspendarea licenței de operare."
+        "text": "Pentru entități esențiale cum sunt furnizorii de apă, penalitățile maxime sunt €10 milioane sau 2% din cifra de afaceri anuală. Incidentele trebuie raportate în termen de 24 de ore în calitate de avertisment devreme către DNSC și în termen de 72 de ore în calitate de notificare completă cu detalii tehnice; nerespectarea acestor termene atrage penalități administrative suplimentare."
       }
     }
   ]
@@ -105,7 +105,7 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru furnizori de apă potabilă și operatori de tratare în România — Cerințe obligatorii 2026
+    NIS2 pentru furnizori de apă potabilă și operatori de tratare ape uzate în România — Cerințe 2026
   </div>
 </div>
 
@@ -113,15 +113,15 @@
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
     <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — Entitate esențială</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru furnizori de apă potabilă și operatori de tratare în România — Cerințe obligatorii 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid prezintă obligațiile specifice din Legea 362/2022 pentru entitățile esențiale din sectorul apei. Veți înțelege cerințele de securitate SCADA, protecția sistemelor chimice și mecanismele de raportare a incidentelor care afectează aprovizionarea cu apă a populației semnificative.</p>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru furnizori de apă potabilă și operatori de tratare ape uzate în România — Cerințe 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Ghid complet pentru entități esențiale din sectorul apei potabile și distribuției. Aflați obligațiile dvs. de securitate cibernetică, cerințele de raportare a incidentelor și cum să evitați penalități până la €10 milioane.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Furnizorii de apă potabilă și operatorii de tratare a apelor uzate care deservesc localități cu peste 50.000 locuitori intră în categoria entităților esențiale. Incluziunile se aplică și operatorilor de rețele de distribuție a apei potabile care transportă volume semnificative. Entitățile mici și medii din acest sector care nu depășesc pragurile de populație sau volum sunt clasificate ca operatori importanți, cu obligații reduse.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Furnizorii de apă potabilă, operatorii de tratare a apelor uzate și operatorii de rețele de distribuție a apei care prestează servicii critice pentru populație trebuie să respecte NIS2. Obligația se aplică entităților care deservesc populații semnificative și ale căror sisteme de control (SCADA/ICS) sunt conectate la rețele critice de infrastructură.</p>
   </div>
 </div>
 
@@ -135,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securizarea sistemelor SCADA și controlului industrial (ICS)</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Toate stațiile de epurare, rezervoarele de stocare și stațiile de pompare trebuie să posede sisteme SCADA/ICS protejate prin firewall-uri dedicate și izolate de rețele corporative. Controlere logice programabile (PLC) și unitățile terminale la distanță (RTU) trebuie monitorizate continuu pentru anomalii. Accesul la interfețele SCADA trebuie reglementat prin autentificare cu doi factori și jurnalizare completă a tuturor acțiunilor de configurare.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securizarea sistemelor SCADA și de control industrial (ICS)</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați segmentarea de rețea între sistemele de control al tratării apei și rețelele corporative, cu firewall-uri dedicate și control al accesului bazat pe rol. Toate controlerele de dozare chimică trebuie protejate cu parolele puternice (minimum 16 caractere, cu caractere speciale) și să beneficieze de monitorizare continuă a încercărilor de acces neautorizat. Sistemele SCADA nu trebuie conectate direct la internet; accesul la distanță necesită VPN criptat și autentificare multi-factor.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -144,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Protecția sistemelor de dozare chimică împotriva manipulării</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Sistemele de dozare a coagulfanților, dezinfectanților și fosfaților trebuie să dispună de mecanisme fizice de protecție și control de acces restricționat. Controlere chimice cu parolele implicite fabrice trebuie schimbate în 90 de zile de la implementare. Senzori de integritate și alarme de deviere trebuie să funcționeze permanent, cu notificări in timp real către operatori.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor de securitate cibernetică</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice perturbare a furnizării apei potabile sau a tratării apelor uzate care afectează populații semnificative trebuie raportată în termen de 24 de ore în calitate de avertisment devreme către DNSC, iar notificarea completă trebuie transmisă în termen de 72 de ore. Incidentele includ accesul neautorizat la sisteme de control, modificări ale parametrilor chimici, atacuri DDoS asupra stațiilor de pompare sau orice eveniment care compromite integritatea apei distribuite.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -153,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor de securitate care afectează aprovizionarea cu apă</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Incidentele de securitate care cauzează întreruperi în aprovizionarea cu apă a populației semnificative trebuie raportate Direcției Naționale de Securitate Cibernetică (DNSC) în termen de maximum 72 de ore. Raportul trebuie să includă amploarea întreruperii, durata estimată, cauza identificată și măsuri de remediere. Operatorii trebuie să mascheze informații sensibile despre infrastructură în comunicări publice.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Protecția fizico-cibernetică a stațiilor de pompare și punctelor critice</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Stațiile de pompare, bazinele de stocare și punctele de dozare chimică necesită control fizic prin badguri/biometrie și monitorizare video cu stocare securizată a înregistrărilor pe minimum 90 de zile. Fiecare acces fizic trebuie corelat cu jurnal de audit electronic, iar modificările la setările de control trebuie înregistrate automat cu identificarea utilizatorului responsabil și timestamp-ul exact.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -162,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Integrarea securității fizice și cibernetice a stațiilor de pompare</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Stațiile de pompare critice trebuie să combine supraveghere fizică (camere de supraveghere, senzori de acces) cu monitorizare cibernetică a comenzilor și feedback-ului sistemelor. Accesele fizice și logice trebuie corelate și auditabilitate completă; orice modificare fizică a unei componente trebuie reflectată și în jurnalele de securitate IT. Planurile de răspuns la incidente trebuie să integreze echipele de securitate fizică și IT.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Politici de gestionare a vulnerabilităților și patch management</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să întrețineti registrul complet al tuturor softului și firmware-ului din sistemele de control al apei, inclusiv versiunile curente și datele de suport. Patch-urile de securitate trebuie evaluate și implementate în termen de 30 de zile pentru vulnerabilități critice; pentru SCADA-uri, testarea trebuie efectuată pe mediu de test înainte de desfășurarea în producție. Furnizori de software trebuie selectați doar dacă garantează notificări prompte de vulnerabilități și actualizări de siguranță pentru durata contractului.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -171,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Implementarea unei strategii de segmentare și insolarea rețelelor</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Rețelele operaționale (OT) care controlează tratarea și distribuția apei trebuie izolate complet de rețelele de birou și internet. Orice comunicație între zone trebuie să treacă prin gateway-uri de securitate cu filtrare strictă. Operatorii trebuie să implementeze zero-trust architecture pentru orice dispozitiv care se conectează la rețelele critice, inclusiv dispozitive mobile și sisteme de télémaintenance.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Continuitate de activitate și recuperare după dezastre</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice întrerupere a sistemelor de tratare a apei sau distribuției trebuie să poată fi recuperată în maximum 4 ore; planurile de contingență trebuie testate cel puțin anual și actualizate în funcție de rezultate. Trebuie să mențineți backup-uri criptate offline ale configurațiilor critice de SCADA și să asigurați redundanța pentru sisteme sensibile, inclusiv alimentare de rezervă și communication failover la stații de pompare esențiale.</p>
       </div>
     </div>
   </div>
@@ -184,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sisteme SCADA conectate direct la internet sau la rețele corporative fără firewall dedicat, expunând controlele critice la atacuri din afara.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Sisteme SCADA conectate direct la internet fără firewall-uri dedicate sau VPN; remedierea necesită segmentare imediată de rețea și autentificare multi-factor pentru acces la distanță.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Controlere de dozare chimică rămân cu parolele implicit fabrice sau cu credențiale slabe, permițând acces neautorizat la sisteme de biocid și coagulant.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Controlere de dozare chimică cu parole implicite sau slabe; trebuie schimbate toate parolele conform standardului și implementat control al accesului bazat pe rol cu audit log complet.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absența segmentării între rețelele corporative și sistemele operaționale (OT), facilitând lateralizarea atacurilor de la birou la sisteme critice.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Lipsă de segmentare între rețele corporative și de control, permițând malware din e-mail-uri să ajungă la sisteme SCADA; necesită implementarea unui DMZ și inspectare profundă a pachetelor.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Lipsă de monitorizare în timp real și jurnalizare completă a modificărilor în configurații SCADA, ceea ce complică detectarea incidentelor și investigațiile forensice.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absența monitorizării şi alertării in real-time pentru modificări neautorizate ale setărilor de procesare; trebuie implementate senzori SIEM cu alertare instantă la modificări de parametri de dozare sau debit.
     </li>
   </ul>
 </div>
@@ -209,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -217,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">isms.online</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -225,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">vanta.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -236,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența între obligațiile de conformitate pentru furnizorii de apă cu peste 50.000 locuitori și operatorii mai mici?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt pragurile dimensionale pentru a fi considerat entitate esențială în sectorul apei?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Furnizorii care deservesc peste 50.000 locuitori sunt clasificați ca entități esențiale și trebuie să implementeze măsuri NIS2 complete, inclusiv SCADA securizat, raportare de incidente și audit anual. Operatorii mai mici sunt clasificați ca operatori importanți și trebuie să respecte o versiune simplificată a cerințelor, cum ar fi o evaluare de bază a riscurilor și un plan de continuitate cu timp de recuperare mai prelungit.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Toți furnizorii de apă potabilă și operatorii de tratare a apelor uzate care deservesc populații semnificative sunt clasificați automat ca entități esențiale conform Anexei I a NIS2. Nu există prag numeric de populație în normele actuale; DNSC determină calitatea esențială pe bază de impact asupra funcționării critice a serviciului apei în teritoriul administrativ.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce se întâmplă dacă un sistem SCADA este compromis și afectează furnizarea de apă pentru câteva ore?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce trebuie să includ în planul de recuperare după dezastre pentru sisteme de control al apei?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Incidentul trebuie raportat DNSC în termen de maximum 72 de ore, cu detalii despre cauza, amploarea și durata întreruperii. Nerespectarea acestei obligații atrage amenzi de până la 5% din cifra de afaceri anuală. În paralel, operatorul trebuie să inițieze investigație forensică și să implementeze măsuri de remediere pentru a preveni repetiția.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Planul trebuie să descrie proceduri de failover pentru fiecare componentă critică (SCADA, sisteme de dozare, stații de pompare), să specifice RTO maxim de 4 ore și RPO maxim de 1 oră pentru date, și să includă teste anuale cu documentare a rezultatelor. Backup-urile offline ale configurațiilor SCADA și parole de administrator trebuie stocate în seif fizic acces restricționat, iar copii digitale criptate trebuie păstrate în locație geografic disparată.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile pentru neimplementarea securității SCADA și a protecției sistemelor chimice?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile și termenele de raportare a incidentelor potrivit legii 124/2025?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neconformitatea cu obligațiile NIS2 poate genera amenzi de 2-5% din cifra de afaceri anuală, în funcție de gravitatea incidentului și impactul asupra populației. Pentru entități esențiale, lipsa implementării SCADA securizat în termenul stabilit (septembrie 2026) atrage penalități administrative și posibile sancțiuni penale pentru leadership, plus suspendarea licenței de operare.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Pentru entități esențiale cum sunt furnizorii de apă, penalitățile maxime sunt €10 milioane sau 2% din cifra de afaceri anuală. Incidentele trebuie raportate în termen de 24 de ore în calitate de avertisment devreme către DNSC și în termen de 72 de ore în calitate de notificare completă cu detalii tehnice; nerespectarea acestor termene atrage penalități administrative suplimentare.</p>
     </div>
   </div>
   </div>
@@ -269,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="accountants.html">NIS2 pentru firme de contabilitate în România</a></li><li style="margin:0"><a href="banks.html">NIS2 Bănci și Instituții de Credit România 2026 - Cerințe Esențiale</a></li><li style="margin:0"><a href="cloud-providers.html">NIS2 pentru furnizori de servicii cloud în România 2026</a></li><li style="margin:0"><a href="construction.html">NIS2 Constructii Mari Romania 2026 - Conformitate DNSC</a></li><li style="margin:0"><a href="cybersecurity-firms.html">NIS2 pentru vânzători de securitate cibernetică în România 2026</a></li><li style="margin:0"><a href="dental-clinics.html">NIS2 Clinici Dentare și Medicale</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -283,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>

@@ -6,7 +6,7 @@
   var STORAGE_KEY = "nis2_tracker_v1";
   var QUIZ_KEY    = "nis2_quiz_gaps"; // written by quiz.js after score gate
 
-  /* ── Strings (Romanian — DNSC / Legea nr. 362/2006 modificată) ───────── */
+  /* ── Strings (Romanian — DNSC / OUG nr. 155/2024 modificată) ───────── */
   var S = {
     heading:        "Progresul tău de conformitate NIS2",
     subheading:     "Bifează măsurile pe care le-ai implementat deja. Progresul tău este salvat local.",
@@ -28,7 +28,7 @@
     {
       id:       "registration",
       art:      "Înregistrare",
-      title:    "Înregistrarea în registrul entităților conform Legea nr. 362/2006 modificată",
+      title:    "Înregistrarea în registrul entităților conform OUG nr. 155/2024 modificată",
       detail:   "Obligația de înregistrare în registrul entităților esențiale și importante administrat de DNSC. Termen: conform transpunerii române NIS2.",
       tool:     "Ghid de înregistrare pas cu pas",
       tool_url: "inregistrare-nis2.html",

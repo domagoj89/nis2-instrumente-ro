@@ -11,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 Producători Industriali România 2026 — Ghid Conformitate</title>
-  <meta name="description" content="Ghid complet NIS2 pentru producători industriali cu linii de producție conectate. Obligații OT/ICS, segmentare rețea și raportare incidente până 2026.">
+  <title>NIS2 Producători Industriali România 2026 - Ghid Conformitate DNSC</title>
+  <meta name="description" content="Cerințe NIS2 pentru producători cu linii de producție conectate. Securitate OT/ICS, raportare incidente în 72h. Conformitate până 2026.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/manufacturing.html">
-  <meta property="og:title" content="NIS2 Producători Industriali România 2026 — Ghid Conformitate">
-  <meta property="og:description" content="Ghid complet NIS2 pentru producători industriali cu linii de producție conectate. Obligații OT/ICS, segmentare rețea și raportare incidente până 2026.">
+  <meta property="og:title" content="NIS2 Producători Industriali România 2026 - Ghid Conformitate DNSC">
+  <meta property="og:description" content="Cerințe NIS2 pentru producători cu linii de producție conectate. Securitate OT/ICS, raportare incidente în 72h. Conformitate până 2026.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/manufacturing.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 Producători Industriali România 2026 — Ghid Conformitate">
-  <meta name="twitter:description" content="Ghid complet NIS2 pentru producători industriali cu linii de producție conectate. Obligații OT/ICS, segmentare rețea și raportare incidente până 2026.">
+  <meta name="twitter:title" content="NIS2 Producători Industriali România 2026 - Ghid Conformitate DNSC">
+  <meta name="twitter:description" content="Cerințe NIS2 pentru producători cu linii de producție conectate. Securitate OT/ICS, raportare incidente în 72h. Conformitate până 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -46,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru Producători Industriali în România — Cerințe de Conformitate 2026",
+      "name": "NIS2 pentru Producători Industriali în România — Obligații 2026",
       "item": "https://nis2-instrumente.ro/sektory/manufacturing.html"
     }
   ]
@@ -59,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Trebuie să pun PLC-urile existente offline și să le segmentez imediat de rețeaua corporativă?",
+      "name": "Care este diferența dintre raportarea de avertizare timpurie și notificarea completă a incidentelor pentru producători?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nu trebuie să opriți producția imediat. Trebuie să planificați segmentarea în faze, testând mai întâi soluțiile firewall OT și DMZ în mediu controlat. DNSC așteptă ca implementarea să fie completă până la 2026, dar trebuie să demonstrați progres documentat și etape concrete planificate în cadrul auditoriilor interne."
+        "text": "Avertizarea timpurie (24 de ore) este o notificare preliminară către DNSC că a occurred un incident de securitate pe linia de producție, cu detalii inițiale. Notificarea completă (72 de ore) trebuie să conțină analiza detaliată, impact economic, sisteme afectate și planul de remediere. Ambele termenuri se calculează din momentul identificării incidentului."
       }
     },
     {
       "@type": "Question",
-      "name": "Ce se întâmplă dacă un furnizor de firmware industrial nu poate furniza dovezi de audit de securitate?",
+      "name": "Cum trebuie securizat accesul la distanță al furnizorilor de mentenanță industrială la PLC-uri și SCADA?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trebuie să efectuați o evaluare de risc și să documentați decizia — fie să schimbați furnizorul, fie să implementați controale de atenuare suplimentare (izolare fizică mai strictă, monitorizare OT intensă). Contractele trebuie să includă clauze care obliga furnizorul să se conformeze cerințelor NIS2 sau să vă dați acordul pentru audit de securitate la locul lor."
+        "text": "Accesul la distanță trebuie gestionat prin VPN cu criptare TLS 1.2 minimum, autentificare multi-factor și conturi separate pentru fiecare angajat de furnizor. Conexiunile trebuie înregistrate cu audit-trail complet și limitate la ferestre de timp prestabilite. După finalizarea sesiunii de mentenanță, credențialele trebuie revocate imediat și trebuie verificat că nici o backdoor nu a fost instalată."
       }
     },
     {
       "@type": "Question",
-      "name": "Ce amenzi am dacă nu raportez un incident de producție care a oprit linia timp de 48 de ore?",
+      "name": "Care sunt penalitățile pentru neconformitate NIS2 ca producător important și ce deadline final am pentru conformitate completă?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Legea 362/2022 prevede amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri anuală globală (oricare este mai mare) pentru eșecul raportării incidentelor în timp. În plus, DNSC poate impune controale regulatoare mai stricte și mandate de remediere cu costuri suplimentare de conformitate."
+        "text": "Pentru entități importante din Anexa II, penalitățile maxime sunt până la 7 milioane EUR sau 1,4% din cifra de afaceri anuală globală (conform OUG 155/2024). Deadline-ul de conformitate completă cu Legea 124/2025 este 2026, dar DNSC poate efectua controale și audite înainte de această dată. Comenziți o evaluare de risc cu DNSC sau cu consultant acreditat cât mai repede pentru a identifica lacunele."
       }
     }
   ]
@@ -105,7 +105,7 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru Producători Industriali în România — Cerințe de Conformitate 2026
+    NIS2 pentru Producători Industriali în România — Obligații 2026
   </div>
 </div>
 
@@ -113,15 +113,15 @@
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
     <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate Importantă</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Producători Industriali în România — Cerințe de Conformitate 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid este destinat producătorilor industriali cu infrastructură Industry 4.0, linii de producție conectate și sisteme PLC care trebuie să se conformeze obligațiilor NIS2 ca entități importante. Veți învăța cum să implementați măsuri concrete de securitate OT/ICS și cum să evitați penalitățile DNSC.</p>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Producători Industriali în România — Obligații 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Ghidul de conformitate pentru fabricanți cu infrastructură Industry 4.0, linii de producție controlate prin PLC-uri și sisteme conectate. Aflați cum să implementați securitate cibernetică în sistemele de control industrial și să raportați incidentele conform OUG 155/2024.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Producătorii industriali cu linii de producție conectate (PLC, SCADA, MES) sunt clasificați ca entități importante conform Anexei II dacă operează infrastructură critică sau deservesc sectoare critice. Obligația se aplică în special producătorilor cu mai de 250 de angajați, cifră de afaceri anuală peste 50 de milioane EUR, sau care dețin active digitale critice pentru operații de producție. Toate echipele tehnice și de management trebuie să înțeleagă că segmentarea OT și gestionarea patchurilor nu sunt opționale, ci obligații legale sub reglementarea NIS2/Legea 362/2022.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Producători industriali din România cu linii de producție automatizate, sisteme PLC conectate la rețea sau internet, și infrastructură Industry 4.0 care îndeplinesc praguri de importanță stabilite de DNSC. Sunt incluse fabricile cu mai mult de 250 angajați sau cu cifră de afaceri anuală supraunitară, sau cu securitate critică pentru funcționarea economiei naționale, indiferent de dimensiune.</p>
   </div>
 </div>
 
@@ -135,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea Sistemelor de Control OT și ICS</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați controale de securitate specifice pentru sistemele de control industrial (PLC, SCADA, HMI) care nu sunt aceleași ca securitatea IT tradițională. Aceasta include identificarea și clasificarea tuturor dispozitivelor OT conectate la rețeaua de producție, implementarea de firewall-uri dedicate OT, și monitorizarea continuă a comportamentului anormal pe liniile de producție. Cadrul de referință trebuie să se conformeze standardelor IEC 62443 și să fie documentat într-o politică internă aprobată de management.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitate OT/ICS pentru Sistemele de Control de Producție</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați măsuri de securitate specifice pentru PLC-uri, controllere industriale și sisteme SCADA care dirijează liniile de producție. Aceasta include identificarea tuturor activelor OT, segregarea rețelelor IT/OT, criptarea comunicațiilor și restricționarea accesului la nodurile critice. Orice întrerupere a controlului liniilor de producție cu impact economic semnificativ constituie incident care trebuie raportat în termen de 72 de ore către DNSC.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -144,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Segmentarea Rețelei IT/OT și Monitorizarea Traficului</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Rețelele de producție trebuie să fie izolate fizic sau logic de rețelele corporative (IT). Această segmentare se implementează prin zone demilitarizate (DMZ) și controale de acces strict la poarta dintre IT și OT. Trebuie să monitorizați continuu traficul între segmente folosind soluții SIEM dedicate OT, pentru a detecta accesuri neautorizate sau comportamente de compromitere care ar putea afecta liniile de producție.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea Lanțului de Aprovizionare pentru Componente Industriale și Firmware</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să evaluați și monitorați riscurile de securitate ale furnizorilor de componente hardware, firmware-uri industriale și software de control. Implementați procese de verificare a surselor, validare a integrității componentelor înainte de integrarea în linie și proceduri de actualizare sigură. Auditurile furnizorilor critici trebuie efectuate cel puțin anual pentru a verifica că respectă standardele de securitate.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -153,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea Lanțului de Aprovizionare pentru Furnizori de Componente și Firmware</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să efectuați audit de securitate asupra tuturor furnizorilor de componente industriale (PLC-uri, senzori, controlere) și producători de firmware care furnizează actualizări pentru echipamentele de producție. Contractele cu furnizori trebuie să includă clauze obligatorii privind auditurile de securitate, procesele de gestionare a vulnerabilităților și comunicarea promptă a incidentelor. Trebuie să mențineti o înregistrare documentată a fiecărui furnizor și o evaluare anuală a respectării cerințelor de securitate.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Patch Management și Gestionarea Vulnerabilităților în Sisteme OT</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Stabiliți un proces formal de identificare, testare și aplicare a patch-urilor și actualizărilor de securitate pentru PLC-uri, firmware-uri industriale și sisteme de control. Dat fiind dificultatea dowtime-ului în producție, trebuie să planificați ferestre de mentenanță și să mențineți stocuri de backup pentru componente critice. Testarea patch-urilor pe medii de staging izolate este obligatorie înainte de implementare în producție.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -162,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor de Producție cu Impacts Economice Semnificative</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Incidentele care afectează linia de producție (opriri neplanificate, pierderi de date critice, compromitere de sisteme de control) cu impact economic semnificativ (determinat de DNSC ca orice incident care cauzează pierderi materiale măsurabile) trebuie raportate autorității DNSC în termen de 72 de ore de la descoperire. Raportul trebuie să conțină descrierea incidentului, sistemele afectate, impactul economic estimat, măsurile imediate luate și planul de recuperare. Eșecul raportării în timp util atrage penalități la DNSC.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Segmentare Rețea și Monitorizare Continuă</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Implementați separare fizică sau logică între rețelele corporative IT și sistemele OT de producție prin firewall-uri industriale și componente de segmentare. Activați monitorizare în timp real a traficului intra-rețea, fluxurilor de date anormale și tentativelor de acces neautorizat la controllere. Trebuie să mențineți log-uri de audit pentru minimum 12 luni și să efectuați analize lunare a acestora pentru a detecta anomalii.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -171,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Inventarierea Activelor Digitale și Gestionarea Patchurilor pentru Sisteme OT</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să mențineti o evidență completă și actualizată a tuturor activelor digitale conectate la rețelele de producție (PLC-uri, HMI-uri, gateway-uri industriale, senzori IoT), inclusiv versiunile firmware și software. Gestionarea patchurilor pentru sisteme OT trebuie planificată și testată în medii controlate înainte de implementare pe liniile de producție active, pentru a preveni întreruperi neplanificate. Fiecare patch trebuie documentat cu data implementării, versiunea firmware/software și rezultatul testării.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor cu Impact asupra Producției</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate cibernetică care provoacă întrerupere a liniilor de producție, compromitere a integrității datelor de control sau acces neautorizat la sisteme OT trebuie raportat DNSC în termen de 24 de ore (avertizare timpurie) și 72 de ore (notificare completă). Raportul trebuie să includă descrierea incidentului, sistemele afectate, impact economic estimat și măsurile corective implementate.</p>
       </div>
     </div>
   </div>
@@ -184,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>PLC-urile și controlerele industriale sunt conectate direct la rețeaua corporativă fără firewall OT sau segmentare de rețea, expunând sistemele de producție la accese neautorizate din rețelele de birou.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Conectarea directă a PLC-urilor și controllerelor industriale la rețeaua corporativă IT fără firewall sau segmentare, permitând propagarea rapidă a amenințărilor interne.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Procesele de management al patchurilor lipsesc complet pentru sistemele OT — firmware-ul pe PLC-uri și controlerele nu sunt niciodată actualizate, lăsând vulnerabilități cunoscute expuse în timp pe lini de producție.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Absența unui proces de patch management pentru sisteme OT — firmele aplică actualizări sporadic sau deloc din teama de a deranja producția, creând vulnerabilități cronice.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Accesul pentru mentenanță la distanță este configurat prin protocoale nesigure (Telnet, HTTP nencriptat) fără autentificare multifactor, permitând atacatorilor să se conecteze la sisteme de control.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Accesul la mentenanță la distanță prin protocoale nesecure (Telnet, HTTP neencriptat) sau prin rețele VPN slab autentificate, permițând interceptarea credențialelor.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Nu există evidență documentată a tuturor dispozitivelor industriale IoT conectate la rețele — inventarul de active lipsește, ceea ce înseamnă că nu puteți monitoriza și proteja efectiv toate echipamentele.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Inventar incomplet sau inexistent al dispozitivelor IoT industriale, ceea ce duce la pierderea controlului asupra activelor și imposibilitatea monitorizării efective a securității.
     </li>
   </ul>
 </div>
@@ -209,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">isms.online</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -217,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -225,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">reglyze.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/reglyze.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/reglyze.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -236,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Trebuie să pun PLC-urile existente offline și să le segmentez imediat de rețeaua corporativă?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre raportarea de avertizare timpurie și notificarea completă a incidentelor pentru producători?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Nu trebuie să opriți producția imediat. Trebuie să planificați segmentarea în faze, testând mai întâi soluțiile firewall OT și DMZ în mediu controlat. DNSC așteptă ca implementarea să fie completă până la 2026, dar trebuie să demonstrați progres documentat și etape concrete planificate în cadrul auditoriilor interne.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Avertizarea timpurie (24 de ore) este o notificare preliminară către DNSC că a occurred un incident de securitate pe linia de producție, cu detalii inițiale. Notificarea completă (72 de ore) trebuie să conțină analiza detaliată, impact economic, sisteme afectate și planul de remediere. Ambele termenuri se calculează din momentul identificării incidentului.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce se întâmplă dacă un furnizor de firmware industrial nu poate furniza dovezi de audit de securitate?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cum trebuie securizat accesul la distanță al furnizorilor de mentenanță industrială la PLC-uri și SCADA?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Trebuie să efectuați o evaluare de risc și să documentați decizia — fie să schimbați furnizorul, fie să implementați controale de atenuare suplimentare (izolare fizică mai strictă, monitorizare OT intensă). Contractele trebuie să includă clauze care obliga furnizorul să se conformeze cerințelor NIS2 sau să vă dați acordul pentru audit de securitate la locul lor.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Accesul la distanță trebuie gestionat prin VPN cu criptare TLS 1.2 minimum, autentificare multi-factor și conturi separate pentru fiecare angajat de furnizor. Conexiunile trebuie înregistrate cu audit-trail complet și limitate la ferestre de timp prestabilite. După finalizarea sesiunii de mentenanță, credențialele trebuie revocate imediat și trebuie verificat că nici o backdoor nu a fost instalată.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce amenzi am dacă nu raportez un incident de producție care a oprit linia timp de 48 de ore?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile pentru neconformitate NIS2 ca producător important și ce deadline final am pentru conformitate completă?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Legea 362/2022 prevede amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri anuală globală (oricare este mai mare) pentru eșecul raportării incidentelor în timp. În plus, DNSC poate impune controale regulatoare mai stricte și mandate de remediere cu costuri suplimentare de conformitate.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Pentru entități importante din Anexa II, penalitățile maxime sunt până la 7 milioane EUR sau 1,4% din cifra de afaceri anuală globală (conform OUG 155/2024). Deadline-ul de conformitate completă cu Legea 124/2025 este 2026, dar DNSC poate efectua controale și audite înainte de această dată. Comenziți o evaluare de risc cu DNSC sau cu consultant acreditat cât mai repede pentru a identifica lacunele.</p>
     </div>
   </div>
   </div>
@@ -269,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="medical-devices.html">NIS2 Producători Dispozitive Medicale România 2026 - Ghid Conformitate</a></li><li style="margin:0"><a href="pharmacies.html">NIS2 Lanțuri Farmaceutice România 2026 - Ghid Conformitate DNSC</a></li><li style="margin:0"><a href="public-administration.html">NIS2 pentru instituții publice România 2026</a></li><li style="margin:0"><a href="real-estate.html">NIS2 Agenții Imobiliare România 2026</a></li><li style="margin:0"><a href="retail.html">NIS2 Retail și E-commerce România 2026</a></li><li style="margin:0"><a href="sme-general.html">NIS2 pentru Întreprinderi Medii în România</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -283,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>

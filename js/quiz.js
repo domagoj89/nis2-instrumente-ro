@@ -75,7 +75,7 @@
     },
     {
       id: "budget",
-      title: "Care este bugetul dvs. anual pentru conformitatea NIS2/Legea nr. 362/2006 modificată?",
+      title: "Care este bugetul dvs. anual pentru conformitatea NIS2/OUG nr. 155/2024 modificată?",
       hint: "Vom adapta instrumentele recomandate la posibilitățile dvs. financiare.",
       options: [
         { value: "free", icon: "🆓", label: "Caut o soluție gratuită",        sub: "Plan gratuit sau cost unic de implementare" },
@@ -86,7 +86,7 @@
     },
     {
       id: "registered",
-      title: "Compania dvs. este deja înregistrată conform Legea nr. 362/2006 modificată?",
+      title: "Compania dvs. este deja înregistrată conform OUG nr. 155/2024 modificată?",
       hint: "Termen de înregistrare: conform transpunerii române NIS2. Acesta este primul dvs. obligație.",
       options: [
         { value: "yes",  icon: "✅", label: "Da, ne-am înregistrat deja",         sub: "Autoidentificarea a fost efectuată" },
@@ -110,7 +110,7 @@
       hint: "Instruirea conducerii este o obligație legală conform Art. 20 NIS2.",
       options: [
         { value: "yes", icon: "✅", label: "Da, avem cursuri regulate",              sub: "Angajații și conducerea sunt instruiți" },
-        { value: "no",  icon: "❌", label: "Nu, nu avem cursuri în acest domeniu",   sub: "Instruirea conducerii este o obligație legală conform Legea nr. 362/2006 modificată" },
+        { value: "no",  icon: "❌", label: "Nu, nu avem cursuri în acest domeniu",   sub: "Instruirea conducerii este o obligație legală conform OUG nr. 155/2024 modificată" },
       ]
     },
     {
@@ -187,7 +187,7 @@
       actions.push({
         step: actions.length + 1,
         time: "30 min · gratuit",
-        title: "Înregistrați compania conform Legea nr. 362/2006 modificată",
+        title: "Înregistrați compania conform OUG nr. 155/2024 modificată",
         desc:  "Termen: conform transpunerii române NIS2. Formular de autoidentificare online. Aceasta este prioritatea dvs. #1.",
         cta:   "Instrucțiuni pas cu pas →",
         url:   "inregistrare-nis2.html",
@@ -225,7 +225,7 @@
         step: actions.length + 1,
         time: "30 min · trial gratuit 14 zile",
         title: "Lansați cursuri de securitate cibernetică — KnowBe4",
-        desc:  "Instruirea conducerii este o obligație legală (Art. 20 Legea nr. 362/2006 modificată). KnowBe4: platformă online, primul modul trimis echipei în 24 de ore.",
+        desc:  "Instruirea conducerii este o obligație legală (Art. 20 OUG nr. 155/2024 modificată). KnowBe4: platformă online, primul modul trimis echipei în 24 de ore.",
         cta:   "Începeți trial-ul gratuit →",
         url:   LINKS.knowbe4.url,
         affiliate: true,
@@ -238,7 +238,7 @@
         step: actions.length + 1,
         time: "30 min · trial gratuit 14 zile",
         title: "Implementați un manager de parole + MFA — 1Password",
-        desc:  "Autentificarea multifactor (MFA) este impusă de Art. 21(j) Legea nr. 362/2006 modificată. 1Password Business: configurare în 30 de minute, implementare la echipă în aceeași zi.",
+        desc:  "Autentificarea multifactor (MFA) este impusă de Art. 21(j) OUG nr. 155/2024 modificată. 1Password Business: configurare în 30 de minute, implementare la echipă în aceeași zi.",
         cta:   "Începeți trial-ul gratuit →",
         url:   LINKS.onepassword.url,
         affiliate: true,
@@ -334,10 +334,10 @@
                      : "#16a34a";
 
     const scopeMsg = {
-      essential: "Compania dvs. este o <strong>entitate esențială conform Legea nr. 362/2006 modificată</strong> — cel mai înalt nivel de cerințe.",
-      important:  "Compania dvs. este o <strong>entitate importantă conform Legea nr. 362/2006 modificată</strong> — trebuie să îndepliniți cerințele NIS2.",
-      check:      "Compania dvs. poate fi supusă Legea nr. 362/2006 modificată — verificați excepțiile pentru întreprinderile mici.",
-      out:        "Compania dvs. probabil nu intră sub incidența Legea nr. 362/2006 modificată — este totuși recomandat să implementați măsurile de bază.",
+      essential: "Compania dvs. este o <strong>entitate esențială conform OUG nr. 155/2024 modificată</strong> — cel mai înalt nivel de cerințe.",
+      important:  "Compania dvs. este o <strong>entitate importantă conform OUG nr. 155/2024 modificată</strong> — trebuie să îndepliniți cerințele NIS2.",
+      check:      "Compania dvs. poate fi supusă OUG nr. 155/2024 modificată — verificați excepțiile pentru întreprinderile mici.",
+      out:        "Compania dvs. probabil nu intră sub incidența OUG nr. 155/2024 modificată — este totuși recomandat să implementați măsurile de bază.",
     }[scope] || "";
 
     const gapText = missing.length === 0
