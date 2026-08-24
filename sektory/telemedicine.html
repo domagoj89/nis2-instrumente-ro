@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta name="robots" content="noindex,nofollow">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
   <script>
@@ -12,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC</title>
-  <meta name="description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <title>NIS2 Platforme Telehealth România 2026 — Ghid Conformitate</title>
+  <meta name="description" content="Obligații NIS2 pentru platforme de monitorizare pacienți și aplicații digitale de sănătate în România. Raportare incidente, criptare date, deadline 2026.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/telemedicine.html">
-  <meta property="og:title" content="NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC">
-  <meta property="og:description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <meta property="og:title" content="NIS2 Platforme Telehealth România 2026 — Ghid Conformitate">
+  <meta property="og:description" content="Obligații NIS2 pentru platforme de monitorizare pacienți și aplicații digitale de sănătate în România. Raportare incidente, criptare date, deadline 2026.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/telemedicine.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC">
-  <meta name="twitter:description" content="Ghid complet NIS2 pentru platforme telehealth și aplicații sănătate digitală în România. Obligații de securitate date pacienți, raportare incidente, deadline 2026.">
+  <meta name="twitter:title" content="NIS2 Platforme Telehealth România 2026 — Ghid Conformitate">
+  <meta name="twitter:description" content="Obligații NIS2 pentru platforme de monitorizare pacienți și aplicații digitale de sănătate în România. Raportare incidente, criptare date, deadline 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -47,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026",
+      "name": "NIS2 pentru platformele de telehealth în România — Cerințe de conformitate 2026",
       "item": "https://nis2-instrumente.ro/sektory/telemedicine.html"
     }
   ]
@@ -60,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Care este diferența dintre obligațiile GDPR și cele NIS2 pentru platformele telehealth din România?",
+      "name": "Care este diferența dintre entități esențiale și entități importante pentru o platformă de telehealth și cum afectează aceasta penalitățile?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "GDPR reglementează protecția datelor personale și drepturile pacienților (consimțământ, drept la ștergere), iar NIS2 impune măsuri tehnice și organizatorice de securitate cibernetică pentru entitățile importante. Pentru platformele telehealth, aceasta înseamnă că GDPR cere criptare și DPA-uri, iar NIS2 cere criptare end-to-end obligatorie, raportare incidentelor în 24 de ore și planuri de continuitate a activității testate anual."
+        "text": "Platformele de telehealth sunt clasificate în Anexa II ca entități importante, cu penalități de până la 7 milioane euro sau 1,4% din cifra de afaceri anuale globale. Entitățile esențiale (Anexa I) ar fi doar operatorii de infrastructură critică (ISP-uri, furnizori cloud majorității spitalelor). Clasificarea dvs. ca entitate importantă vă obligă la implementarea măsurilor de securitate NIS2, inclusiv testare de penetrare și raportare incidente în 72 de ore."
       }
     },
     {
       "@type": "Question",
-      "name": "Platformele telehealth care procesează date prin cloud extern (AWS, Azure) trebuie să obțină aprobări speciale de DNSC?",
+      "name": "Cum trebuie structurate acordurile de prelucrare a datelor cu furnizorii de cloud hosting pentru platformele de telemedicină?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Nu există aprobare prealabilă de DNSC necesară, dar platformele trebuie să semneze DPA-uri cu furnizorii cloud care să detalieze locurile de procesare și garanțiile de securitate. Datele pacienților trebuie criptate înainte de încărcare, iar furnizorul cloud trebuie clasificat ca sub-processor. DNSC poate inspecta conformitatea în cadrul auditurilor."
+        "text": "Acordurile trebuie să includă clauze explicite privind securitatea cibernetică: localizarea datelor (preferabil în UE), criptare în tranzit și la rest, restricții de acces cu MFA obligatoriu, audit anual de securitate, și obligația de raportare incidente către dvs. în maxim 24 de ore. Trebuie de asemenea specificat cine este responsabil pentru implementarea controalelor de audit și testare de penetrare conform NIS2."
       }
     },
     {
       "@type": "Question",
-      "name": "Care sunt penalitățile pentru neraportarea incidentelor de securitate către DNSC în termen de 24 de ore?",
+      "name": "Care sunt consecințele unei notificări târzii de incident la DNSC și cum se calculează termenul de 72 de ore?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Neraportarea sau raportarea târzie a incidentelor care afectează continuitatea îngrijirii pacienților este sancționată cu amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală anuală, oricare este mai mare. Suplimentar, DNSC poate impune măsuri corective obligatorii și suspenderea parțială a serviciilor digitale până la remedierea incidentului."
+        "text": "O notificare întârziată de incident de securitate la DNSC poate atrage amenzi de până la 7 milioane euro pentru entități importante. Termenul de 72 de ore pornește de la momentul detectării incidentului (nu confirmării cauzei). Trebuie să raportați o avertizare preliminară (early warning) în 24 de ore, apoi notificarea completă cu detalii de impact și măsuri de remediare în alte 48 de ore. Documentați data și ora detectării în jurnal de securitate pentru a demonstra respectarea termenului."
       }
     }
   ]
@@ -106,23 +105,23 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026
+    NIS2 pentru platformele de telehealth în România — Cerințe de conformitate 2026
   </div>
 </div>
 
 <!-- HERO -->
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
-    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate Importantă</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Platforme Telehealth și Servicii de Monitorizare Pacienți în România — Cerințe 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid este destinat operatorilor de platforme telehealth, serviciilor de monitorizare la distanță și aplicațiilor de sănătate digitală clasificate ca entități importante în România. Veți înțelege obligațiile specifice de securitate a datelor pacienților, alinierea GDPR+NIS2 și cerințele de raportare a incidentelor care afectează continuitatea îngrijirii.</p>
+    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate importantă</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru platformele de telehealth în România — Cerințe de conformitate 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Ghid complet pentru operatorii de servicii de telemedicină, monitorizare la distanță și aplicații digitale de sănătate care intră sub definiția entităților importante conform Anexei II a OUG 155/2024. Aflați obligațiile specifice, termenii de raportare și riscurile de penalizare.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Platformele de teleconsultație, serviciile de monitorizare la distanță a pacienților și aplicațiile de sănătate digitală care procesează date de sănătate sensibile și au minim 50 de angajați sau încasări anuale de cel puțin 10 milioane EUR sunt clasificate ca entități importante în baza NIS2. Această clasificare include și operatorii care furnizează servicii esențiale pentru sisteme spitalicești și centre medicale, indiferent de dimensiunea lor, dacă întreruperea serviciului ar afecta furnizarea de îngrijiri medicale.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Conform OUG 155/2024, se califică ca entități importante platformele de telemedicină care furnizează servicii digitale în domeniul sănătății și care au impact semnificativ asupra siguranței rețelelor și a informațiilor pacienților. Se includ furnizori de servicii de monitorizare la distanță a pacienților, operatori de aplicații de sănătate conectate la sisteme spitalicești, și furnizori de soluții de consultații video și mesagerie medicală care procesează date de sănătate ale mai multor pacienți simultanu.</p>
   </div>
 </div>
 
@@ -136,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Criptare End-to-End a Consultațiilor Video și Mesajelor de Sănătate</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platformele telehealth trebuie să implementeze criptare end-to-end obligatorie pentru toate consultațiile video și mesajele dintre pacienți și profesioniști medicali. Aceasta înseamnă că nici operatorul platformei, nici furnizorii terți de hosting nu pot accesa conținutul comunicării. Certificatele TLS 1.2 sau superior sunt insuficiente; trebuie implementată criptare de nivel aplicație cu chei gestionate separat de platforma de transmisie.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitatea transmisiei datelor pacienților pe platformele de consultație și mesagerie</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați criptare end-to-end pentru toate consultațiile video și comunicările de mesagerie medicală. Datele pacienților transmise prin platforma dvs. trebuie protejate atât în tranzit, cât și la stocare. Orice integrare cu sisteme externe (EHR spitalicesc, farmacii digitale) trebuie asigurată prin canale criptate și autenticate cu certificatele corespunzătoare.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -145,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Acorduri de Prelucrare a Datelor cu Toți Sub-Procesatorii și Integratorii</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Fiecare operator de platformă trebuie să semneze acorduri formale de prelucrare a datelor (DPA) cu toți sub-procesatorii, inclusiv furnizorii de stocare cloud, furnizori de analytics, și sistemele de integrare cu EHR-urile spitalicești. Acordurile trebuie să detalieze locurile de procesare, durata retenției datelor și garanțiile de securitate. Omiterea unui singur sub-processor expune platforma la incalcări de GDPR și NIS2.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Alinearea GDPR cu cerințele NIS2 pentru prelucrarea datelor de sănătate</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Deși GDPR este obligatoriu deja, NIS2 întărește cerințele prin OUG 155/2024 cu obligation de implementare a măsurilor de securitate cibernetică specifice. Trebuie să documentați toate contractele de prelucrare a datelor cu partenerii (sub-procesatori), inclusiv clinici, laboratoare și furnizori de tehnologie cloud. Evaluarea impactului asupra securității cibernetice trebuie efectuată pentru fiecare nouă integrare de date de sănătate.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -154,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Testare de Penetrare Anuală și Evaluări de Vulnerabilitate pentru Aplicații Mobile</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Aplicațiile mobile de sănătate și interfețele web ale platformelor telehealth trebuie supuse testărilor de penetrare efectuate de terți independenți cel puțin o dată pe an. Rapoartele trebuie să acopere vulnerabilități de autentificare, valori ale sesiunilor, injecție SQL, și gestionarea certificatelor. Defectele descoperite trebuie corectate în termen de 30 de zile, cu dovezi documentate.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitatea lanțului de aprovizionare pentru integrări EHR spitalicesc</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platforma dvs. trebuie să stabilească cerințe de securitate minime pentru toți furnizorii de componente software și hardware care accesează sau stochează date pacienților. Includeți audit de securitate în contractele cu furnizori de API spitalicești, iar pentru schimburile de date cu sisteme externe, implementați mecanisme de validare și jurnalizare a accesului. Documentați lanțul de aprovizionare și testați anual vulnerabilități în integralele externe.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -163,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor de Securitate care Afectează Continuitatea Îngrijirii</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate (atac cibernetic, pană de sistem, scurgere de date) care întrerupe accesul pacienților la serviciile de teleconsultație sau monitorizare la distanță trebuie raportat DNSC în termen de maximum 24 de ore. Raportul trebuie să includă descrierea incidentului, numărul de pacienți afectați, măsurile de remediere și durata timpului de inactivitate a serviciului.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor de securitate care afectează continuitatea serviciului pentru pacienți</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Conform OUG 155/2024, orice incident care afectează disponibilitatea platformei (căderi de serviciu, intreruperi ale consultațiilor video, pierderi de date pacienților) trebuie raportat DNSC în maxim 24 de ore de la detectare (early warning), urmată de notificare completă în 72 de ore. Definiți clar în politicile interne ce constituie incident (outaje sistem, tentative de acces neautorizat, breșe de date) și întocmiți plan de răspuns cu proceduri de containment și comunicare cu pacienții.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -172,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Plan de Continuitate a Activității și Recuperare în Caz de Dezastru</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platformele telehealth trebuie să menține planuri formale de continuitate a activității (BCP) și recuperare în caz de dezastru (DRP) care garantează reactivarea serviciilor în maxim 4 ore după o întrerupere majore. Planurile trebuie testate prin simulări cel puțin o dată la 12 luni, cu inregistrări și rezultate documentate. Trebuie identificate sisteme de backup și centre alternative de operare.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Testare periodică de penetrare și audit de securitate pentru aplicații digitale</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Platformele și aplicațiile dvs. de sănătate trebuie supuse la teste de penetrare anuale de către auditori independenți certificați. Incluși în testare trebuie verificarea autentificării (login, MFA), autorizării (acces la datele altor pacienți), și funcționalităților de criptare. Documentați remedierea vulnerabilităților și urmărire implementării măsurilor corective în termeni stabiliți.</p>
       </div>
     </div>
   </div>
@@ -185,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Platformele de consultație video utilizează doar criptare în tranzit (HTTPS) fără criptare end-to-end, permițând operatorului să vizioneze conversații pacienților.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Platforma de consultații video nu implementează criptare end-to-end, permițând operatorului sau furnizorului de cloud să acceseze conținutul consultațiilor — trebuie remediat prin integrare de protocoale TLS 1.3 și chei de criptare gestionate de parte clinică.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Aplicațiile mobile de sănătate nu sunt incluse în programele regulate de testare de securitate, lăsând vulnerabilități în autentificare și stocare locală de date sensibile.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Aplicația de sănătate digitală nu este acoperită de teste formale de penetrare, generând vulnerabilități necunoscute în logica de autentificare sau validare datelor — necesită audit anual de la furnizor certificat și integrare în ciclul de dezvoltare.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Acordurile de prelucrare a datelor lipsesc cu mai mulți sub-procesatori (furnizori analytics, platforme de notificări push, servicii de email) ceea ce încalcă GDPR și NIS2.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Nu există acorduri formale de prelucrare a datelor (DPA) cu toți sub-procesatorii (clinici, farmacie, furnizori cloud, integratori EHR), încălcând atât GDPR cât și transparența NIS2 — trebuie întocmite și actualizate anual cu clauze de securitate cibernetică.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Planurile de continuitate a activității nu specifică time-to-recovery măsurabil și nu sunt testate prin simulări reale, lăsând platformele nepregatite pentru întreruperi.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Proceduri de raportare a incidentelor lipsesc sau sunt vagare, expunând organizația la amenzi de până la 7 milioane euro — definiți clar tipuri de incidente și implementați un flux obligatoriu de raportare către DNSC în 24 de ore.
     </li>
   </ul>
 </div>
@@ -210,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">sprinto.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -218,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -226,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">drata.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -237,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre obligațiile GDPR și cele NIS2 pentru platformele telehealth din România?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre entități esențiale și entități importante pentru o platformă de telehealth și cum afectează aceasta penalitățile?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">GDPR reglementează protecția datelor personale și drepturile pacienților (consimțământ, drept la ștergere), iar NIS2 impune măsuri tehnice și organizatorice de securitate cibernetică pentru entitățile importante. Pentru platformele telehealth, aceasta înseamnă că GDPR cere criptare și DPA-uri, iar NIS2 cere criptare end-to-end obligatorie, raportare incidentelor în 24 de ore și planuri de continuitate a activității testate anual.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Platformele de telehealth sunt clasificate în Anexa II ca entități importante, cu penalități de până la 7 milioane euro sau 1,4% din cifra de afaceri anuale globale. Entitățile esențiale (Anexa I) ar fi doar operatorii de infrastructură critică (ISP-uri, furnizori cloud majorității spitalelor). Clasificarea dvs. ca entitate importantă vă obligă la implementarea măsurilor de securitate NIS2, inclusiv testare de penetrare și raportare incidente în 72 de ore.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Platformele telehealth care procesează date prin cloud extern (AWS, Azure) trebuie să obțină aprobări speciale de DNSC?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cum trebuie structurate acordurile de prelucrare a datelor cu furnizorii de cloud hosting pentru platformele de telemedicină?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Nu există aprobare prealabilă de DNSC necesară, dar platformele trebuie să semneze DPA-uri cu furnizorii cloud care să detalieze locurile de procesare și garanțiile de securitate. Datele pacienților trebuie criptate înainte de încărcare, iar furnizorul cloud trebuie clasificat ca sub-processor. DNSC poate inspecta conformitatea în cadrul auditurilor.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Acordurile trebuie să includă clauze explicite privind securitatea cibernetică: localizarea datelor (preferabil în UE), criptare în tranzit și la rest, restricții de acces cu MFA obligatoriu, audit anual de securitate, și obligația de raportare incidente către dvs. în maxim 24 de ore. Trebuie de asemenea specificat cine este responsabil pentru implementarea controalelor de audit și testare de penetrare conform NIS2.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile pentru neraportarea incidentelor de securitate către DNSC în termen de 24 de ore?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt consecințele unei notificări târzii de incident la DNSC și cum se calculează termenul de 72 de ore?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neraportarea sau raportarea târzie a incidentelor care afectează continuitatea îngrijirii pacienților este sancționată cu amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală anuală, oricare este mai mare. Suplimentar, DNSC poate impune măsuri corective obligatorii și suspenderea parțială a serviciilor digitale până la remedierea incidentului.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">O notificare întârziată de incident de securitate la DNSC poate atrage amenzi de până la 7 milioane euro pentru entități importante. Termenul de 72 de ore pornește de la momentul detectării incidentului (nu confirmării cauzei). Trebuie să raportați o avertizare preliminară (early warning) în 24 de ore, apoi notificarea completă cu detalii de impact și măsuri de remediare în alte 48 de ore. Documentați data și ora detectării în jurnal de securitate pentru a demonstra respectarea termenului.</p>
     </div>
   </div>
   </div>
@@ -270,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="transport.html">NIS2 pentru transportatori și operatori portuari în România</a></li><li style="margin:0"><a href="waste-management.html">NIS2 pentru Operatori de Deșeuri în România</a></li><li style="margin:0"><a href="water.html">NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă</a></li><li style="margin:0"><a href="accountants.html">NIS2 pentru firme de contabilitate în România</a></li><li style="margin:0"><a href="banks.html">NIS2 Bănci și Instituții de Credit România 2026 - Cerințe Esențiale</a></li><li style="margin:0"><a href="cloud-providers.html">NIS2 pentru furnizori de servicii cloud în România 2026</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -284,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>

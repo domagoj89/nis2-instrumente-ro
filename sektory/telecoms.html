@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta name="robots" content="noindex,nofollow">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
   <script>
@@ -12,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 pentru Operatori de Telecomunicații în România — Ghid Conformitate 2026</title>
-  <meta name="description" content="Obligații NIS2 pentru ISP, operatori mobili și CDN în România. Securitate infrastructurii de rețea, raportare incidente și conformitate cu termenul 2026.">
+  <title>NIS2 pentru operatori de telecomunicații în România — conformitate 2026</title>
+  <meta name="description" content="Ghid complet NIS2/OUG 155/2024 pentru operatori telecom, ISP și CDN din România. Obligații esențiale, termene și penalități până la €10 milione.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/telecoms.html">
-  <meta property="og:title" content="NIS2 pentru Operatori de Telecomunicații în România — Ghid Conformitate 2026">
-  <meta property="og:description" content="Obligații NIS2 pentru ISP, operatori mobili și CDN în România. Securitate infrastructurii de rețea, raportare incidente și conformitate cu termenul 2026.">
+  <meta property="og:title" content="NIS2 pentru operatori de telecomunicații în România — conformitate 2026">
+  <meta property="og:description" content="Ghid complet NIS2/OUG 155/2024 pentru operatori telecom, ISP și CDN din România. Obligații esențiale, termene și penalități până la €10 milione.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/telecoms.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 pentru Operatori de Telecomunicații în România — Ghid Conformitate 2026">
-  <meta name="twitter:description" content="Obligații NIS2 pentru ISP, operatori mobili și CDN în România. Securitate infrastructurii de rețea, raportare incidente și conformitate cu termenul 2026.">
+  <meta name="twitter:title" content="NIS2 pentru operatori de telecomunicații în România — conformitate 2026">
+  <meta name="twitter:description" content="Ghid complet NIS2/OUG 155/2024 pentru operatori telecom, ISP și CDN din România. Obligații esențiale, termene și penalități până la €10 milione.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -47,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru Operatori de Telecomunicații, ISP și Furnizori CDN în România — Cerințe 2026",
+      "name": "NIS2 pentru operatori de telecomunicații, ISP și CDN în România — cerințe de conformitate 2026",
       "item": "https://nis2-instrumente.ro/sektory/telecoms.html"
     }
   ]
@@ -60,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Care este diferența dintre raportarea incidentelor NIS2 și obligațiile de raportare existente ale ANCOM pentru serviciile de comunicații electronice?",
+      "name": "Care sunt consecințele legale dacă încalc cerințele NIS2 ca operator de telecomunicații esențial?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "NIS2 necesită raportarea incidentelor de securitate care afectează disponibilitatea serviciilor (inclusiv atacuri cibernetice, defecțiuni și sabotaj), cu termen de 24 de ore pentru notificarea inițială. Obligațiile ANCOM vizează calitatea serviciului și disponibilitatea generală. Operatorii trebuie să asigure raportarea în paralel către ambele autorități, dar cu criterii diferite de prag și timpi de răspuns."
+        "text": "Entitățile esențiale care nu respectă obligațiile NIS2 pot fi amendată cu până la €10 milione sau 2% din cifra de afaceri mondială anuală, oricare dintre acestea este mai mare. DNSC poate impune măsuri administrative stricte incluzând suspendarea parțială a serviciilor dacă incidentele de securitate nu sunt raportate în termenele prevăzute (24 ore avertisment, 72 ore notificare completă)."
       }
     },
     {
       "@type": "Question",
-      "name": "Care sunt cerințele specifice pentru gestionarea rutării BGP în conformitate cu NIS2?",
+      "name": "Care este termenul exact de raportare a unui incident care afectează serviciile pentru abonați și cum trebuie să documentez?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Trebuie să implementați RPKI (Resource Public Key Infrastructure) sau alte mecanisme de validare a rutelor BGP pentru a preveni sechestrarea rutelor. Configurațiile de rută trebuie revizuite trimestrial, iar alarmele trebuie setate pentru anunțuri BGP neobișnuite. Personalul de operare trebuie antrenat anual în prevenirea atacurilor BGP și detecția incidentelor."
+        "text": "Trebuie să trimiteți avertisment inițial DNSC în termen de 24 ore de la detectarea incidentului; raportul trebuie să conțină o descriere preliminară, tipul incidentului și sistemele afectate. Notificarea completă cu analiza detaliată post-incident trebuie trimisă în termen de 72 ore, incluzând cauza rădăcinii, măsurile de remediere și planul de prevenție pentru viitor."
       }
     },
     {
       "@type": "Question",
-      "name": "Ce penalități aplică România operatorilor de telecomunicații care nu se conformează NIS2 până la termenul limită din 2026?",
+      "name": "Care sunt criteriile pentru a determina dacă un incident afectează o 'populație semnificativă' de abonați și trebuie raportată?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Conform Legii 155/2024, neconformitatea cu NIS2 poate duce la amenzi de până la 10 miljoane EUR sau 2% din venituri globale anuale (oricare dintre acestea este mai mare), cu o perioadă de trecere până la 21 octombrie 2026 pentru entitățile esențiale. DNSC poate impune măsuri de remediere imediate și restricții temporare asupra serviciilor dacă sunt identificate lacune critice."
+        "text": "Încă nu există prag procentual explicit în OUG 155/2024, dar DNSC consideră semnificativ orice incident cu impact pe 1-5% din baza de abonați sau care cauzeaza indisponibilitate servicii critice (voce, date) peste 4 ore pentru o regiune geografică majoră. Consultați direct DNSC pentru clarificări caz-by-case sau documentați-vă praguri interne conservative."
       }
     }
   ]
@@ -106,23 +105,23 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru Operatori de Telecomunicații, ISP și Furnizori CDN în România — Cerințe 2026
+    NIS2 pentru operatori de telecomunicații, ISP și CDN în România — cerințe de conformitate 2026
   </div>
 </div>
 
 <!-- HERO -->
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
-    <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — Entitate Esențială</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru Operatori de Telecomunicații, ISP și Furnizori CDN în România — Cerințe 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid abordează obligații specifice pentru operatorii de telecomunicații clasificați ca entități esențiale conform NIS2. Veți afla cerințele concrete privind securitatea infrastructurii de rețea, gestionarea lanțului de aprovizionare și raportarea incidentelor critice.</p>
+    <span style="display:inline-block;background:#1a3a5c;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa I — entitate esențială</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru operatori de telecomunicații, ISP și CDN în România — cerințe de conformitate 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid detaliază obligațiile obligatorii pentru operatori de rețea și furnizori de servicii de internet clasificați ca entități esențiale în România. Veți afla care sunt principalele domenii de conformitate și cum să implementați măsuri concrete de securitate cibernetică.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Operatorii de telecomunicații din România care oferă servicii publice de comunicații electronice sunt clasificați automat ca entități esențiale conform NIS2, indiferent de dimensiune. Aceasta include furnizorii de servicii de internet fix și mobil, operatorii de rețele mobile, furnizorii de servicii CDN și operatorii de puncte de schimb de trafic care deservesc o populație semnificativă de abonați.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Operatorii de telecomunicații mobil și fix, furnizorii de servicii internet (ISP), furnizorii de servicii de rețea de livrare conținut (CDN) și operatorii de rețele de comunicații publice care oferă servicii în România sunt clasificați ca entități esențiale conform OUG 155/2024. Acest statut se aplică indiferent de dimensiunea organizației dacă furnizați infrastructură critică de comunicații electronice.</p>
   </div>
 </div>
 
@@ -136,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea Infrastructurii de Rețea de Bază</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați măsuri avansate de protecție pentru routerele core, sistemele DNS și echipamentele critice de comutare. Aceasta include filtrarea rutelor BGP pentru prevenirea sechestrării BGP, monitorizarea continuă a anomaliilor de rețea în timp real și aplicarea unor controale stricte de acces pentru personalul cu privilegii administrative pe echipamentele de bază.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitate avansată a infrastructurii de rută și BGP</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați filtrarea rutelor BGP și validare RPKI pentru a preveni sechestrarea rutelor și hijackingul BGP. Monitorizați în permanență anomaliile de rută la nivelul rutelor de bază și implementați mecanisme de alertare pentru modificări neautorizate ale configurației routerelor de bază care ar putea afecta populații mari de abonați.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -145,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea Incidentelor de Disponibilitate pentru Populație Semnificativă</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să raportați la DNSC orice incident de securitate care afectează disponibilitatea serviciilor unui procent semnificativ de abonați sau o întreagă regiune. Raportul inițial trebuie transmis în termen de 24 de ore, cu detalii tehnice despre impact, cauza rădăcinii și măsurile de remediere în curs. Rapoartele finale de incidente trebuie finalizate în termen de 30 de zile.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea și notificarea incidentelor de securitate cibernetică</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice incident de securitate cibernetică care afectează disponibilitatea serviciilor pentru o populație semnificativă de abonați trebuie raportate Direcției Naționale de Securitate Cibernetică (DNSC) în termen de 24 ore ca avertisment inițial, urmat de notificare completă în termen de 72 ore. Trebuie să mențineti un jurnal detaliat al incidentelor și să efectuati analize post-incident documentate pentru fiecare incident raportabil.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -154,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea Lanțului de Aprovizionare pentru Echipamente de Rețea</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să evaluați și să monitorizați securitatea tuturor furnizorilor de echipamente critice, inclusiv routere, comutatoare, stații de bază și firmware-ul acestora. Implementați cerințe contractuale obligatorii privind notificarea vulnerabilităților, securitatea firmware-ului, și restricții asupra codului din terțe părți. Auditați cel puțin anual conformitatea furnizorilor cu cerințele de securitate definite.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securitate lanț de aprovizionare pentru echipamente de rețea</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Evaluați și auditați toți furnizorii critici de echipamente de rețea (routere, comutatoare, stații de bază) pentru conformitate cu standardele de securitate cibernetică. Implementați controale contractuale care obligă furnizorii să comunice vulnerabilitățile zero-day și să furnizeze patch-uri de securitate în termen de 30 de zile pentru componente critice.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -163,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Controale de Acces și Securitate pentru Interceptare Legală</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Sistemele dedicate interceptării legale trebuie să fie izolate de rețeaua de operare normală și să dispună de controale stricte de acces bazate pe rol. Trebuie să mențineti jurnale de audit detaliate ale tuturor acceselor la funcțiile de interceptare, să implementați autentificare multifactor și să efectuați revizuiri regulate ale permisiunilor de acces ale personalului autorizat.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea end-of-support și planuri de ciclu de viață echipament</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Identificați toate echipamentele de rețea care rulează firmware vendor cu suport final încheiat și dezvoltați planuri de înlocuire cu termene de urgență pentru componentele din calea de date critică. Documentați versiunile firmware, datele suportului și planurile de upgrade pentru fiecare categorie de echipament; echipamentele cu suport expirat trebuie înlocuite sau izolate în termen de 12 luni.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -172,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea Ciclului de Viață al Echipamentelor și Actualizări de Firmware</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să urmăriți și să gestionați ciclul de viață complet al tuturor echipamentelor de rețea critice, inclusiv data de end-of-support de la furnizor. Interziceți utilizarea de firmware-uri mai vechi decât doi ani după data end-of-support și aplicați patch-uri de securitate în termen de 30 de zile de la disponibilitate pentru echipamentele critice.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Monitorizare și detectare anomalii pentru rețele de bază</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Implementați sisteme de monitorizare continuă pentru a detecta anomalii în rețelele de bază care ar putea indica atacuri cibernetice sau defecțiuni. Trebuie să aveți capacitate de analiză trafic în timp real pe peering-points principale și legături de tranzit; setați praguri de alertare pentru abuse pattern-uri și comportamente anormale cu time-to-detection sub o oră.</p>
       </div>
     </div>
   </div>
@@ -185,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Filtrarea rutelor BGP nu este implementată pe routerele de bază, lăsând operatorul vulnerabil la sechestrarea BGP și deturnarea traficului către competitor-i sau actori malițioși.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Filtrarea BGP și validare RPKI nu sunt implementate pe routerele de bază sau sunt parțial configurate, lăsând rețeaua vulnerabilă la sechestrarea rutelor și redirecționări de trafic malițioase.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Echipamentele de rețea funcționează cu versiuni de firmware care au depășit data de end-of-support de la furnizor, lipsind patch-urile de securitate critice și create o vulnerabilitate persistentă pentru atacuri cunoscute.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Echipamentele de rețea critice rulează versiuni firmware manufacturer cu suport deja expirat, care nu primesc patch-uri de securitate și nu pot fi actualizate din cauza compatibilității sistemelor legacy.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Monitorizarea anomaliilor de rețea pe echipamentele core este minimală sau inexistentă, permițând incidentelor de securitate să treacă neobservate timp de zile sau săptămâni.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Monitorizarea anomaliilor de rețea nu este suficientă — lipsa alertelor în timp real pentru schimbări de rută anormale, spike-uri de trafic neobișnuite sau modificări unauthorized ale configurației routerelor de bază.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Contractele cu furnizorii de echipamente nu conțin clauze clare privind notificarea vulnerabilităților, securitatea lanțului de aprovizionare sau drepturile de audit de securitate.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Programele de gestionare a lanțului de aprovizionare lipsesc control periodic al furnizorilor de echipamente și nu includ obligații contractuale explicite privind comunicarea vulnerabilităților și furnizarea rapidă de patch-uri de securitate.
     </li>
   </ul>
 </div>
@@ -210,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">vanta.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -218,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">secfix.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/secfix.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -226,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">isms.online</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/isms-online.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -237,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este diferența dintre raportarea incidentelor NIS2 și obligațiile de raportare existente ale ANCOM pentru serviciile de comunicații electronice?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt consecințele legale dacă încalc cerințele NIS2 ca operator de telecomunicații esențial?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">NIS2 necesită raportarea incidentelor de securitate care afectează disponibilitatea serviciilor (inclusiv atacuri cibernetice, defecțiuni și sabotaj), cu termen de 24 de ore pentru notificarea inițială. Obligațiile ANCOM vizează calitatea serviciului și disponibilitatea generală. Operatorii trebuie să asigure raportarea în paralel către ambele autorități, dar cu criterii diferite de prag și timpi de răspuns.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Entitățile esențiale care nu respectă obligațiile NIS2 pot fi amendată cu până la €10 milione sau 2% din cifra de afaceri mondială anuală, oricare dintre acestea este mai mare. DNSC poate impune măsuri administrative stricte incluzând suspendarea parțială a serviciilor dacă incidentele de securitate nu sunt raportate în termenele prevăzute (24 ore avertisment, 72 ore notificare completă).</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt cerințele specifice pentru gestionarea rutării BGP în conformitate cu NIS2?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care este termenul exact de raportare a unui incident care afectează serviciile pentru abonați și cum trebuie să documentez?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Trebuie să implementați RPKI (Resource Public Key Infrastructure) sau alte mecanisme de validare a rutelor BGP pentru a preveni sechestrarea rutelor. Configurațiile de rută trebuie revizuite trimestrial, iar alarmele trebuie setate pentru anunțuri BGP neobișnuite. Personalul de operare trebuie antrenat anual în prevenirea atacurilor BGP și detecția incidentelor.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Trebuie să trimiteți avertisment inițial DNSC în termen de 24 ore de la detectarea incidentului; raportul trebuie să conțină o descriere preliminară, tipul incidentului și sistemele afectate. Notificarea completă cu analiza detaliată post-incident trebuie trimisă în termen de 72 ore, incluzând cauza rădăcinii, măsurile de remediere și planul de prevenție pentru viitor.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce penalități aplică România operatorilor de telecomunicații care nu se conformează NIS2 până la termenul limită din 2026?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt criteriile pentru a determina dacă un incident afectează o 'populație semnificativă' de abonați și trebuie raportată?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Conform Legii 155/2024, neconformitatea cu NIS2 poate duce la amenzi de până la 10 miljoane EUR sau 2% din venituri globale anuale (oricare dintre acestea este mai mare), cu o perioadă de trecere până la 21 octombrie 2026 pentru entitățile esențiale. DNSC poate impune măsuri de remediere imediate și restricții temporare asupra serviciilor dacă sunt identificate lacune critice.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Încă nu există prag procentual explicit în OUG 155/2024, dar DNSC consideră semnificativ orice incident cu impact pe 1-5% din baza de abonați sau care cauzeaza indisponibilitate servicii critice (voce, date) peste 4 ore pentru o regiune geografică majoră. Consultați direct DNSC pentru clarificări caz-by-case sau documentați-vă praguri interne conservative.</p>
     </div>
   </div>
   </div>
@@ -270,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="telemedicine.html">NIS2 Platforme Telehealth România 2026 - Ghid Conformitate DNSC</a></li><li style="margin:0"><a href="transport.html">NIS2 pentru transportatori și operatori portuari în România</a></li><li style="margin:0"><a href="waste-management.html">NIS2 pentru Operatori de Deșeuri în România</a></li><li style="margin:0"><a href="water.html">NIS2 România 2026 - Furnizori apă potabilă și operatori tratare apă</a></li><li style="margin:0"><a href="accountants.html">NIS2 pentru firme de contabilitate în România</a></li><li style="margin:0"><a href="banks.html">NIS2 Bănci și Instituții de Credit România 2026 - Cerințe Esențiale</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -284,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-<meta name="robots" content="noindex,nofollow">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q69G1L32V6"></script>
   <script>
@@ -12,18 +11,18 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NIS2 pentru vânzători de securitate cibernetică în România 2026</title>
-  <meta name="description" content="Obligații NIS2 pentru furnizori MSSP și firme de penetration testing în România. Conformitate până în 2026 cu DNSC.">
+  <title>NIS2 pentru furnizori de securitate cibernetică în România 2026</title>
+  <meta name="description" content="Ghid NIS2/OUG 155/2024 pentru MSSP, SOC și firme de penetration testing în România. Obligații, termene și penalități până la 7 milioane euro.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/cybersecurity-firms.html">
-  <meta property="og:title" content="NIS2 pentru vânzători de securitate cibernetică în România 2026">
-  <meta property="og:description" content="Obligații NIS2 pentru furnizori MSSP și firme de penetration testing în România. Conformitate până în 2026 cu DNSC.">
+  <meta property="og:title" content="NIS2 pentru furnizori de securitate cibernetică în România 2026">
+  <meta property="og:description" content="Ghid NIS2/OUG 155/2024 pentru MSSP, SOC și firme de penetration testing în România. Obligații, termene și penalități până la 7 milioane euro.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/cybersecurity-firms.html">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="NIS2 pentru vânzători de securitate cibernetică în România 2026">
-  <meta name="twitter:description" content="Obligații NIS2 pentru furnizori MSSP și firme de penetration testing în România. Conformitate până în 2026 cu DNSC.">
+  <meta name="twitter:title" content="NIS2 pentru furnizori de securitate cibernetică în România 2026">
+  <meta name="twitter:description" content="Ghid NIS2/OUG 155/2024 pentru MSSP, SOC și firme de penetration testing în România. Obligații, termene și penalități până la 7 milioane euro.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -47,7 +46,7 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "NIS2 pentru vânzători de securitate cibernetică și furnizori MSSP în România — Ghid de conformitate 2026",
+      "name": "NIS2 pentru furnizori de securitate cibernetică și MSSP în România — obligații 2026",
       "item": "https://nis2-instrumente.ro/sektory/cybersecurity-firms.html"
     }
   ]
@@ -60,26 +59,26 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "Trebuie să raportez DNSC fiecare vulnerabilitate găsită în serviciile mele MSSP, sau doar incidentele confirmate de exploatare?",
+      "name": "Ce date ale clienților dintr-un SOC/SIEM trebuie encriptate conform NIS2?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Numai incidentele confirmate în care infrastructura dvs. MSSP a fost efectiv compromisă și a afectat capacitatea clientului de a detecta amenințări trebuie raportate DNSC în 24 de ore. Vulnerabilitățile neexploatate trebuie gestionate prin procese interne de patch și notificare responsabilă a clienților, dar nu declanșează raportarea incidentelor DNSC."
+        "text": "Toate datele: loguri de securitate, alerte de detectare, metadata privind dispozitivele clienților și orice informație care permite identificarea infrastructurii clienților. Encriptarea trebuie aplicată atât în tranzit (TLS 1.2+) cât și în repaus (AES-256 sau echivalent), cu chei de criptare gestionate independent. Accesul la datele decriptate trebuie logat și auditat conform regulamentului."
       }
     },
     {
       "@type": "Question",
-      "name": "Cât timp pot stoca jurnalele SOC și datele clienților înainte de ștergere, conform NIS2?",
+      "name": "Cine determină dacă un incident în SOC/SIEM trebuie raportat DNSC în 72 de ore?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "NIS2 nu prescrie o perioadă maximă specifică, dar impune 'minimizarea datelor': stocați datele doar atât timp cât este necesar pentru serviciu (de obicei 90 de zile pentru jurnale brute, 12 luni pentru alertele de incidente investigative). Trebuie să documentați și justificați politica de retenție și să o implementați prin controale de ștergere automată în SIEM-ul dvs."
+        "text": "Dumneavoastră, ca furnizor de servicii. Trebuie să evaluați dacă incidentul afectează capacitatea dumneavoastră de a oferi serviciile de securitate sau dacă expune date ale clienților. Dacă răspunsul este da, raportul trebuie făcut în termen de 24 de ore (avertisment) și apoi 72 de ore (notificare completă). Consultanța cu clienții afectați este obligatorie, dar nu suspendă obligația dumneavoastră de raportare DNSC."
       }
     },
     {
       "@type": "Question",
-      "name": "Care sunt penalitățile dacă nu mă conform NIS2 până în octombrie 2026?",
+      "name": "Care sunt penalitățile specifice pentru entități importante cum ar fi MSSP?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Neconformitatea poate atrage amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală (care este mai mare), plus sancțiuni administrative de la DNSC. DNSC poate ordona și suspendarea furnizării serviciilor critice până la remedierea deficiențelor, afectând direct clienții dvs. critici."
+        "text": "Pentru entități importante clasificate în Anexa II, penalitățile sunt de până la 7 milioane euro sau 1,4% din cifra de afaceri anuală globală (se aplică cifra mai mare). Nerespectarea termenelor de raportare, absența controlelor de criptare, sau eșecul auditării interne sunt motive de penalizare. DNSC aplică aceste sancțiuni și poate suspenda dreptul de operare pentru încălcări grave."
       }
     }
   ]
@@ -106,23 +105,23 @@
   <div class="breadcrumb">
     <a href="../index.html">Pagina principală</a><span>›</span>
     <a href="index.html">Sectoare</a><span>›</span>
-    NIS2 pentru vânzători de securitate cibernetică și furnizori MSSP în România — Ghid de conformitate 2026
+    NIS2 pentru furnizori de securitate cibernetică și MSSP în România — obligații 2026
   </div>
 </div>
 
 <!-- HERO -->
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
-    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — Entitate importantă</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru vânzători de securitate cibernetică și furnizori MSSP în România — Ghid de conformitate 2026</h1>
-    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Această pagină se adresează furnizorilor de servicii de securitate gestionată (MSSP), operatorilor de centre de operații de securitate (SOC) și firmelor de penetration testing clasificate ca entități importante sub NIS2. Veți afla obligațiile specifice privind securitatea infrastructurii SOC, managementul datelor clientului și raportarea incidentelor.</p>
+    <span style="display:inline-block;background:#16a34a;color:#fff;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:.3rem .85rem;border-radius:4px;margin-bottom:1rem;">Anexa II — entitate importantă</span>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);color:var(--navy);margin:.25rem 0 1rem;line-height:1.25;">NIS2 pentru furnizori de securitate cibernetică și MSSP în România — obligații 2026</h1>
+    <p style="font-size:1.05rem;color:var(--gray-500);line-height:1.65;margin:0;">Acest ghid este destinat furnizorilor de servicii de securitate gestionată (MSSP), operatorilor de centre de operații de securitate (SOC) și firmelor de penetration testing clasificate ca entități importante sub NIS2. Veți înțelege obligațiile legale specifice, riscurile de conformitate și cum să implementați controalele necesare pentru a evita penalitățile până la 7 milioane euro.</p>
   </div>
 </div>
 
 <!-- WHO QUALIFIES -->
 <div class="container--narrow" style="padding:2.5rem 1.25rem 0;">
   <div style="background:var(--gray-50);border-left:4px solid var(--navy);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;">
-    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Firmele de cybersecurity, MSSP și operatorii SOC din România sunt clasificați ca entități importante dacă furnizează servicii critice de securitate digitală unui număr semnificativ de alte entități (inclusiv operatori de infrastructură critică și alte entități importante). Dimensiunea și volumul clienților critici sunt factori determinanți pentru calificare.</p>
+    <p style="font-size:.95rem;color:var(--navy-dark);line-height:1.65;margin:0;">Orice furnizor de servicii de securitate gestionată (MSSP), operator de SOC/SIEM, sau firmă de penetration testing care oferă servicii clienților din sectoarele esențiale sau importante ale economiei digitale trebuie să respecte NIS2. Aceasta include și furnizorii care gestionează date de securitate sau infrastructură tehnologică critică pentru clienți, indiferent de dimensiunea companiei.</p>
   </div>
 </div>
 
@@ -136,8 +135,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Securitatea infrastructurii SOC și a datelor clientului ingerate</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați controale tehnice și organizatorice robuste pentru a proteja datele de securitate ale clientului (jurnale, trafic rețea, informații de sistem) stocate în platformele SOC. Aceasta include criptarea end-to-end, segregarea datelor pe bază de client și monitorizarea accesului privilegiat. Stocarea datelor trebuie să respecte limite formale de retenție și politici de ștergere în conformitate cu cerințele DNSC.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor de securitate și notificarea promptă DNSC</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să raportați DNSC în termen de 24 de ore (avertisment inițial) și apoi în termen de 72 de ore (notificare completă) orice incident de securitate care vă afectează clienții sau serviciile oferite. Aceasta include compromiterea infrastructurii SOC, expunerea datelor din SIEM, sau atacuri asupra platformei de penetration testing. Nerespectarea acestor termene atrage penalități de până la 7 milioane euro.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -145,8 +144,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Raportarea incidentelor care afectează securitatea clienților</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Când infrastructura dvs. MSSP/SOC este compromisă și aceasta afectează capacitatea clienților dvs. de a-și detecta amenințările, trebuie să raportați incidentul DNSC în maximum 24 de ore. Incidentul trebuie clasificat după impact potențial asupra clienților și trebuie furnizate detalii despre datele accesate și durata compromisului.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Securizarea și encriptarea datelor clienților ingerate în SOC/SIEM</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Toate datele de securitate și logurile clienților primite și stocate în sistemele dumneavoastră (SIEM, EDR, logs) trebuie encriptate în tranzit și în repaus, cu control al accesului bazat pe rol (RBAC). Trebuie să implementați și o politică de retenție a datelor conform contractelor de servicii și cerințelor DNSC, cu audit complet al acceselor. Dacă nu encriptați datele și nu le securizați, compromiterea acestora va fi raportată ca incident la 72 de ore.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -154,8 +153,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea responsabilă a vulnerabilităților și răspunsul coordonat</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Ca furnizor de servicii de securitate, trebuie să mențineți un proces formal de răspuns la vulnerabilități descoperite în serviciile dvs. care afectează clienții. Aceasta include notificarea imediată a clienților, furnizarea de patch-uri sau atenuar temporare și publicarea responsabilă a vuln. Trebuie să vă coordonați cu DNSC pentru vulnerabilități care afectează entități critice.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Gestionarea vulnerabilităților și răspunsul coordonat la compromitere</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să aveți un program formal de identificare și remediere a vulnerabilităților în propriile sisteme și în serviciile oferite. Aceasta include responsabilitate pentru divulgarea vulnerabilităților descoperite la clienți (responsible disclosure) și un proces de răspuns la incidente care include notificarea clienților afectați. Trebuie documentat întreg procesul, inclusiv timpii de detectare și remediere.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -163,8 +162,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Managementul riscurilor lanțului de aprovizionare și al furnizorilor subcontractanți</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Dacă externalizați funcții SOC, penetration testing sau stocare de date la terți (subcontractanți), trebuie să evaluați și monitorului cu regularitate postura lor de securitate. Contractele cu furnizori trebuie să includă clauze NIS2 explicite privind auditul, raportarea incidentelor și obligații de conformitate. Riscurile de lanț se transmit integral către DNSC.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Audit și certificare de conformitate NIS2 pentru serviciile furnizate</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să solicitați auditări externe independente ale controalelor de securitate și să menține certificări relevante (ISO 27001, SOC 2 Type II) care demonstrează conformitate cu NIS2. DNSC poate efectua inspecții inopinate pentru a verifica implementarea controalelor. Trebuie să puteți prezenta întotdeauna dovezi ale conformității controalelor de securitate.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -172,8 +171,8 @@
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </div>
       <div>
-        <strong style="color:var(--navy);font-size:.95rem;">Audituri și evaluări de conformitate periodice</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să efectuați cel puțin o evaluare de conformitate NIS2 pe an pe parcursul 2025-2026, documentând starea măsurilor de securitate. Rezultatele auditului trebuie puse la dispoziția DNSC la cerere. Aceasta include testarea controlelor de acces, criptării, detectării incidentelor și proceselor de răspuns.</p>
+        <strong style="color:var(--navy);font-size:.95rem;">Planuri de continuitate operațională și recuperare după dezastru</strong>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să aveți planuri documentate și testate pentru asigurarea continuității serviciilor în caz de incident major. Aceasta include RTO (Recovery Time Objective) și RPO (Recovery Point Objective) contractualizate cu clienții, backup redundant al datelor, și testare anuală a planurilor. Planurile trebuie să fie specifice pentru fiecare serviciu (SOC, SIEM, penetration testing platform).</p>
       </div>
     </div>
   </div>
@@ -185,16 +184,16 @@
   <ul style="list-style:none;padding:0;margin:0;border-top:1px solid var(--gray-100);">
     
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Containerele SOC SIEM conțin date de client (jurnale, metadate de amenință) fără limite formale de retenție și fără criptare în repaus, exponând datele la acces neautorizat și retenție neconformă.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Centrele SOC stochează date de securitate ale clienților în SIEM fără encriptare end-to-end și fără politici clare de retenție, exponând informații sensibile ale clienților în cazul unei breșe interne.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Rapoartele de penetration testing și scanurile de vulnerabilitate sunt stocate pe file shares sau în cloud-uri neencriptate, accesibile pentru mai mult de 90 de zile după livrare, încălcând minimizarea datelor.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Rapoartele de penetration testing și vulnerabilități sunt stocate pe servere interne fără criptare și fără control al accesului, putând fi accesate de orice angajat și exponând datele clienților la risc.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Nu există o clasificare formală a incidentelor pentru compromisurile lanțului de aprovizionare (de exemplu, atunci când o vulnerabilitate MSSP expune datele clientului), deci incidentele nu sunt raportate DNSC în timp util.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Furnizorii nu au un proces formal de clasificare și raportare a incidentelor care afectează clienți, inclusiv compromiterea lanțului de aprovizionare sau a infrastructurii de servicii gestionata.
     </li>
     <li style="padding:.5rem 0;color:var(--gray-600);font-size:.93rem;border-bottom:1px solid var(--gray-100);line-height:1.55;">
-      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Contractele cu subcontractanți SOC offshore nu includ clauze explicite privind auditurile de securitate, drepturile de inspectie pe site și obligațiile de conformitate NIS2, creând lacune de responsabilitate.
+      <span style="color:#dc2626;margin-right:.5rem;">✗</span>Lipsesc contractele de servicii care să definească clar responsabilitățile NIS2, inclusiv termeni de notificare a incidentelor, standarde de criptare și termene de suport conform DNSC.
     </li>
   </ul>
 </div>
@@ -210,7 +209,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">vanta.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/vanta.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -218,7 +217,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">drata.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/drata.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
     <div style="background:#fff;border:1px solid var(--gray-200);border-radius:10px;padding:1.25rem 1.5rem;display:flex;flex-direction:column;gap:.5rem;">
       <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem;">
@@ -226,7 +225,7 @@
         <span style="font-size:.78rem;color:var(--gray-400);background:var(--gray-50);border:1px solid var(--gray-200);border-radius:4px;padding:.2rem .6rem;">sprinto.com</span>
       </div>
       <p style="font-size:.88rem;color:var(--gray-600);line-height:1.55;margin:0;"></p>
-      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Verificați instrumentul →</a>
+      <a href="../instrumente/sprinto.html" style="font-size:.85rem;color:var(--green);font-weight:600;text-decoration:none;margin-top:.25rem;">Sprawdź narzędzie →</a>
     </div>
   </div>
 </div>
@@ -237,21 +236,21 @@
   <div style="border-top:1px solid var(--gray-100);">
     
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Trebuie să raportez DNSC fiecare vulnerabilitate găsită în serviciile mele MSSP, sau doar incidentele confirmate de exploatare?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Ce date ale clienților dintr-un SOC/SIEM trebuie encriptate conform NIS2?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Numai incidentele confirmate în care infrastructura dvs. MSSP a fost efectiv compromisă și a afectat capacitatea clientului de a detecta amenințări trebuie raportate DNSC în 24 de ore. Vulnerabilitățile neexploatate trebuie gestionate prin procese interne de patch și notificare responsabilă a clienților, dar nu declanșează raportarea incidentelor DNSC.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Toate datele: loguri de securitate, alerte de detectare, metadata privind dispozitivele clienților și orice informație care permite identificarea infrastructurii clienților. Encriptarea trebuie aplicată atât în tranzit (TLS 1.2+) cât și în repaus (AES-256 sau echivalent), cu chei de criptare gestionate independent. Accesul la datele decriptate trebuie logat și auditat conform regulamentului.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cât timp pot stoca jurnalele SOC și datele clienților înainte de ștergere, conform NIS2?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Cine determină dacă un incident în SOC/SIEM trebuie raportat DNSC în 72 de ore?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">NIS2 nu prescrie o perioadă maximă specifică, dar impune 'minimizarea datelor': stocați datele doar atât timp cât este necesar pentru serviciu (de obicei 90 de zile pentru jurnale brute, 12 luni pentru alertele de incidente investigative). Trebuie să documentați și justificați politica de retenție și să o implementați prin controale de ștergere automată în SIEM-ul dvs.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Dumneavoastră, ca furnizor de servicii. Trebuie să evaluați dacă incidentul afectează capacitatea dumneavoastră de a oferi serviciile de securitate sau dacă expune date ale clienților. Dacă răspunsul este da, raportul trebuie făcut în termen de 24 de ore (avertisment) și apoi 72 de ore (notificare completă). Consultanța cu clienții afectați este obligatorie, dar nu suspendă obligația dumneavoastră de raportare DNSC.</p>
     </div>
   </div>
   <div style="padding:1.25rem 0;border-bottom:1px solid var(--gray-100);" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile dacă nu mă conform NIS2 până în octombrie 2026?</h3>
+    <h3 style="font-size:.97rem;color:var(--navy);margin:0 0 .5rem;" itemprop="name">Care sunt penalitățile specifice pentru entități importante cum ar fi MSSP?</h3>
     <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Neconformitatea poate atrage amenzi de până la 10 milioane EUR sau 2% din cifra de afaceri globală (care este mai mare), plus sancțiuni administrative de la DNSC. DNSC poate ordona și suspendarea furnizării serviciilor critice până la remedierea deficiențelor, afectând direct clienții dvs. critici.</p>
+      <p style="font-size:.9rem;color:var(--gray-600);line-height:1.6;margin:0;" itemprop="text">Pentru entități importante clasificate în Anexa II, penalitățile sunt de până la 7 milioane euro sau 1,4% din cifra de afaceri anuală globală (se aplică cifra mai mare). Nerespectarea termenelor de raportare, absența controlelor de criptare, sau eșecul auditării interne sunt motive de penalizare. DNSC aplică aceste sancțiuni și poate suspenda dreptul de operare pentru încălcări grave.</p>
     </div>
   </div>
   </div>
@@ -270,8 +269,6 @@
   </div>
 </div>
 
-
-<nav class="related-sectors" aria-label="Sectoare conexe" style="max-width:1100px;margin:2rem auto;padding:1.5rem 1.25rem;border-top:1px solid #e5e7eb;"><h2 style="font-size:1.05rem;margin:0 0 .75rem;">Sectoare conexe</h2><ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem 1rem;"><li style="margin:0"><a href="dental-clinics.html">NIS2 Clinici Dentare și Medicale</a></li><li style="margin:0"><a href="education.html">NIS2 pentru Universități și Școli Private în România</a></li><li style="margin:0"><a href="energy.html">NIS2 pentru Operatori Energie și Gaze în România</a></li><li style="margin:0"><a href="fintech.html">NIS2 Fintech România 2026</a></li><li style="margin:0"><a href="food.html">NIS2 pentru Procesatori Alimentari și Distribuitori în România 2026</a></li><li style="margin:0"><a href="hospitals.html">NIS2 Spitale România 2026</a></li></ul></nav>
 <footer style="background:var(--gray-50);border-top:1px solid var(--gray-200);padding:2rem 1.25rem;text-align:center;">
   <div class="container">
     <p style="color:var(--gray-400);font-size:.82rem;margin:0;">
@@ -284,6 +281,5 @@
   </div>
 </footer>
 
-  <script src="/js/tg-cta.js" defer></script>
 </body>
 </html>
