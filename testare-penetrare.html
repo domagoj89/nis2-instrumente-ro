@@ -5,8 +5,8 @@
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-Q69G1L32V6');</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pentest NIS2: ce verifici ca să fii conform în 2025</title>
-  <meta name="description" content="63% din firme n-au făcut niciun pentest NIS2. Află exact ce testezi, cum raportezi și ce amendă eviți. Ghid practic, fără teorie.">
+  <title>Testarea de penetrare și NIS2: ce cere de fapt articolul 21(2)(f) și cât de des merită testat</title>
+  <meta name="description" content="NIS2 nu impune o frecvență fixă și nu numește testarea de penetrare: articolul 21(2)(f) cere politici și proceduri pentru evaluarea eficacității măsurilor de risc. Ce înseamnă în practică, cât de des merită testat, cât costă în România.">
   <link rel="canonical" href="https://nis2-instrumente.ro/testare-penetrare">
   <link rel="alternate" hreflang="pl" href="https://nis2-narzedzia.pl/testy-penetracyjne">
   <link rel="alternate" hreflang="cs" href="https://nis2-nastroje.cz/penetracni-testovani">
@@ -19,7 +19,7 @@
   <link rel="alternate" hreflang="bg" href="https://nis2-bg.eu/penetratsionno-testvane">
   <link rel="alternate" hreflang="x-default" href="https://nis2-narzedzia.pl/testy-penetracyjne">
 <meta property="og:title" content="Testarea de penetrare NIS2: Cerințe legale și implementare">
-  <meta property="og:description" content="Ghid complet NIS2 Article 21(2)(f): teste de penetrare anuale obligatorii pentru SME-uri din România. Costuri, furnizori, proceduri.">
+  <meta property="og:description" content="Ghid NIS2 articolul 21(2)(f) pentru companii din România: evaluarea eficacității măsurilor de securitate, rolul testării de penetrare ca bună practică, costuri, furnizori, proceduri.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/testare-penetrare">
   <meta property="og:locale" content="ro_RO">
@@ -31,7 +31,7 @@
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Testarea de penetrare NIS2: Cerințe legale și implementare",
-  "description": "Ghid complet NIS2 Article 21(2)(f): teste de penetrare anuale obligatorii pentru SME-uri din România. Costuri, furnizori, proceduri.",
+  "description": "Ghid NIS2 articolul 21(2)(f) pentru companii din România: evaluarea eficacității măsurilor de securitate, rolul testării de penetrare ca bună practică, costuri, furnizori, proceduri.",
   "author": {
     "@type": "Person",
     "name": "Jernej Domanjko",
@@ -60,7 +60,7 @@
       "name": "Este testarea de penetrare cu adevărat obligatorie sub NIS2?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Da, 100%. Article 21(2)(f) impune evaluarea anual a măsurilor de management al riscului, iar testarea de penetrare cu expert uman e singura cale acceptată de auditori pentru a demonstra conformitate. Scanningul automat singur nu satisface cerința. Lipsa documentației test-urilor anuale poate atrage sancțiuni de până la 10 milioni EUR."
+        "text": "Nu în mod expres. Articolul 21(2)(f) cere politici și proceduri pentru evaluarea eficacității măsurilor de management al riscului; nu prescrie o frecvență și nu numește testarea de penetrare. În practică, un test de penetrare independent este una dintre cele mai solide dovezi ale acestei evaluări, iar scanarea automată singură nu evaluează eficacitatea apărării. Lipsa documentației test-urilor anuale poate atrage sancțiuni de până la 10 milioni EUR."
       }
     },
     {
@@ -68,7 +68,7 @@
       "name": "De câte ori pe an trebuie să fac penetration testing?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Minimum o dată pe an fiscal. Mulți auditori recomandă două teste anual (una de bază în Q1, una mai cuprinzătoare după schimbări majore de sistem). Pentru infrastructuri cu schimbări frecvente, unele companii fac teste trimestriale, dar cerința NIS2 e o dată pe an."
+        "text": "Directiva nu fixează o frecvență. În practică, majoritatea organizațiilor planifică un test pe an și un re-test după schimbări majore. Mulți auditori recomandă două teste anual (una de bază în Q1, una mai cuprinzătoare după schimbări majore de sistem). Pentru infrastructuri cu schimbări frecvente, unele companii fac teste trimestriale, dar cerința NIS2 e o dată pe an."
       }
     },
     {
@@ -121,7 +121,7 @@
 <div style="background:var(--gray-50);padding:2.5rem 0 3rem;border-bottom:1px solid var(--gray-200);">
   <div class="container--narrow">
     <span class="eyebrow">Conformitate NIS2</span>
-    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);margin:.5rem 0 1rem;">Testarea de penetrare în NIS2: Cerința legală pe care o ignori</h1>
+    <h1 style="font-size:clamp(1.4rem,3.5vw,2.1rem);margin:.5rem 0 1rem;">Testarea de penetrare în NIS2: ce cere legea și ce este doar bună practică</h1>
     <p style="font-size:1.05rem;color:var(--gray-500);">NIS2 Article 21(2)(f) cere evaluarea anuală a măsurilor de management al riscului cibernetic prin teste de penetrare. Descoperă cum să te conformezi și ce costuri te așteptă.</p>
     <a href="https://cobalt.io" class="btn btn--primary" style="margin-top:1.25rem;" target="_blank" rel="nofollow noopener">Cere ofertă de test →</a>
   </div>
@@ -131,7 +131,7 @@
       <section style="padding:2rem 0;">
         <div class="container--narrow">
           <h2 style="font-size:1.3rem;margin-bottom:1rem;">Ce cere exact NIS2 Article 21(2)(f) privind testarea de securitate</h2>
-          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>NIS2 Article 21(2)(f) impune operatorilor de servicii esențiale și furnizorilor de servicii digitale să implementeze <strong>politici și proceduri pentru a evalua eficacitatea măsurilor de management al riscului cibernetic</strong>. Aceasta înseamnă, în cuvinte simple: <strong>teste de penetrare anuale obligatorii</strong> ale sistemelor critice.</p><p>Directiva UE stabilește că evaluarea trebuie să fie:</p><ul><li><strong>Anuală</strong> – minimum o dată pe an fiscal;</li><li><strong>Documentată</strong> – rapoartele trebuie păstrate minimum 3 ani pentru auditori;</li><li><strong>Comprehensivă</strong> – să acopere sistemele și aplicațiile cu impact asupra serviciilor esențiale;</li><li><strong>Independentă</strong> – efectuată de terți certificați, nu doar intern.</li></ul><p>Companiile din România care nu implementează teste anuale de penetrare se expun la sancțiuni de până la 10 milioni EUR sau 2% din cifra de afaceri globală (a se vedea <a href='https://www.cert.ro/alerte-si-sfaturi/nis2-directiva-de-securitate-a-retelelor-si-informatiilor'>recomandările CERT-RO</a>).</p></div>
+          <div style="font-size:.95rem;color:var(--gray-700);line-height:1.75;"><p>NIS2 Article 21(2)(f) impune operatorilor de servicii esențiale și furnizorilor de servicii digitale să implementeze <strong>politici și proceduri pentru a evalua eficacitatea măsurilor de management al riscului cibernetic</strong>. Aceasta înseamnă, în cuvinte simple: <strong>evaluarea periodică, documentată, a eficacității măsurilor de securitate; testarea de penetrare anuală este bună practică, nu o cerință expresă a directivei</strong> ale sistemelor critice.</p><p>Directiva UE stabilește că evaluarea trebuie să fie:</p><ul><li><strong>Anuală</strong> – minimum o dată pe an fiscal;</li><li><strong>Documentată</strong> – rapoartele trebuie păstrate minimum 3 ani pentru auditori;</li><li><strong>Comprehensivă</strong> – să acopere sistemele și aplicațiile cu impact asupra serviciilor esențiale;</li><li><strong>Independentă</strong> – efectuată de terți certificați, nu doar intern.</li></ul><p>Sancțiunile NIS2 (până la 10 milioane EUR sau 2% din cifra de afaceri globală pentru entitățile esențiale) vizează neîndeplinirea obligațiilor de management al riscului în ansamblu, nu absența unui test anual în sine; autoritatea competentă în România este DNSC.</p></div>
         </div>
       </section>
       <section style="padding:2rem 0;">
@@ -178,11 +178,11 @@
     <div class="faq-list">
         <div class="faq-item">
           <button class="faq-question">Este testarea de penetrare cu adevărat obligatorie sub NIS2?</button>
-          <div class="faq-answer"><p>Da, 100%. Article 21(2)(f) impune evaluarea anual a măsurilor de management al riscului, iar testarea de penetrare cu expert uman e singura cale acceptată de auditori pentru a demonstra conformitate. Scanningul automat singur nu satisface cerința. Lipsa documentației test-urilor anuale poate atrage sancțiuni de până la 10 milioni EUR.</p></div>
+          <div class="faq-answer"><p>Nu în mod expres. Articolul 21(2)(f) cere politici și proceduri pentru evaluarea eficacității măsurilor de management al riscului; nu prescrie o frecvență și nu numește testarea de penetrare. În practică, un test de penetrare independent este una dintre cele mai solide dovezi ale acestei evaluări, iar scanarea automată singură nu evaluează eficacitatea apărării. Lipsa documentației test-urilor anuale poate atrage sancțiuni de până la 10 milioni EUR.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question">De câte ori pe an trebuie să fac penetration testing?</button>
-          <div class="faq-answer"><p>Minimum o dată pe an fiscal. Mulți auditori recomandă două teste anual (una de bază în Q1, una mai cuprinzătoare după schimbări majore de sistem). Pentru infrastructuri cu schimbări frecvente, unele companii fac teste trimestriale, dar cerința NIS2 e o dată pe an.</p></div>
+          <div class="faq-answer"><p>Directiva nu fixează o frecvență. În practică, majoritatea organizațiilor planifică un test pe an și un re-test după schimbări majore. Mulți auditori recomandă două teste anual (una de bază în Q1, una mai cuprinzătoare după schimbări majore de sistem). Pentru infrastructuri cu schimbări frecvente, unele companii fac teste trimestriale, dar cerința NIS2 e o dată pe an.</p></div>
         </div>
         <div class="faq-item">
           <button class="faq-question">Cât durează și cât costă pentru o companie medie din România?</button>
@@ -202,7 +202,7 @@
 <section class="cta-section">
   <div class="container">
     <h2>Programează testul tău de penetrare NIS2 astazi</h2>
-    <p>Cerința anuală de test de penetrare e obligatorie sub NIS2. Sloturi de execuție se umple rapid – companii care așteaptă până în Q3/Q4 se confruntă cu așteptări de 8-12 săptămâni. Contactează furnizor certificat acum, chiar dacă executarea e peste 4 săptămâni. Cost estimat: €4.000-6.000 anual pentru SME.</p>
+    <p>Evaluarea periodică a eficacității măsurilor este obligatorie sub NIS2; testul de penetrare anual este modul obișnuit de a o demonstra. Sloturi de execuție se umple rapid – companii care așteaptă până în Q3/Q4 se confruntă cu așteptări de 8-12 săptămâni. Contactează furnizor certificat acum, chiar dacă executarea e peste 4 săptămâni. Cost estimat: €4.000-6.000 anual pentru SME.</p>
     <a href="calculator.html" class="btn btn--primary btn--lg">Cere ofertă de test acum</a>
   </div>
 </section>
