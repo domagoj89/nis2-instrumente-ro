@@ -12,7 +12,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate</title>
-  <meta name="description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
+  <meta name="description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Termene stabilite individual pentru fiecare entitate.">
   <link rel="canonical" href="https://nis2-instrumente.ro/sektory/water">
   <link rel="alternate" hreflang="pl" href="https://nis2-narzedzia.pl/sektory/water">
   <link rel="alternate" hreflang="cs" href="https://nis2-nastroje.cz/sektory/water">
@@ -25,14 +25,14 @@
   <link rel="alternate" hreflang="bg" href="https://nis2-bg.eu/sektory/water">
   <link rel="alternate" hreflang="x-default" href="https://nis2-narzedzia.pl/sektory/water">
 <meta property="og:title" content="NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate">
-  <meta property="og:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
+  <meta property="og:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Termene stabilite individual pentru fiecare entitate.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://nis2-instrumente.ro/sektory/water">
   <meta property="og:locale" content="ro_RO">
   <meta property="og:site_name" content="NIS2-Instrumente.ro">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="NIS2 pentru furnizori apă potabilă România 2026 — Ghid conformitate">
-  <meta name="twitter:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Deadline implementare 2026.">
+  <meta name="twitter:description" content="Obligații NIS2 pentru operatori apă și tratare ape uzate. Cerințe SCADA, raportare incidente 72h, penalități până €10M. Termene stabilite individual pentru fiecare entitate.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
@@ -146,7 +146,7 @@
       </div>
       <div>
         <strong style="color:var(--navy);font-size:.95rem;">Securizarea sistemelor SCADA și de control industrial (ICS)</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați segmentarea de rețea între sistemele de control al tratării apei și rețelele corporative, cu firewall-uri dedicate și control al accesului bazat pe rol. Toate controlerele de dozare chimică trebuie protejate cu parolele puternice (minimum 16 caractere, cu caractere speciale) și să beneficieze de monitorizare continuă a încercărilor de acces neautorizat. Sistemele SCADA nu trebuie conectate direct la internet; accesul la distanță necesită VPN criptat și autentificare multi-factor.</p>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să implementați segmentarea de rețea între sistemele de control al tratării apei și rețelele corporative, cu firewall-uri dedicate și control al accesului bazat pe rol. Toate controlerele de dozare chimică trebuie protejate cu parole puternice și să beneficieze de monitorizare continuă a încercărilor de acces neautorizat. Sistemele SCADA nu trebuie conectate direct la internet; accesul la distanță necesită VPN criptat și autentificare multi-factor.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -173,7 +173,7 @@
       </div>
       <div>
         <strong style="color:var(--navy);font-size:.95rem;">Politici de gestionare a vulnerabilităților și patch management</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să întrețineti registrul complet al tuturor softului și firmware-ului din sistemele de control al apei, inclusiv versiunile curente și datele de suport. Patch-urile de securitate trebuie evaluate și implementate în termen de 30 de zile pentru vulnerabilități critice; pentru SCADA-uri, testarea trebuie efectuată pe mediu de test înainte de desfășurarea în producție. Furnizori de software trebuie selectați doar dacă garantează notificări prompte de vulnerabilități și actualizări de siguranță pentru durata contractului.</p>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Trebuie să întrețineti registrul complet al tuturor softului și firmware-ului din sistemele de control al apei, inclusiv versiunile curente și datele de suport. Patch-urile de securitate trebuie evaluate și implementate pentru vulnerabilități critice; pentru SCADA-uri, testarea trebuie efectuată pe mediu de test înainte de desfășurarea în producție. Furnizori de software trebuie selectați doar dacă garantează notificări prompte de vulnerabilități și actualizări de siguranță pentru durata contractului.</p>
       </div>
     </div>
     <div class="checklist-item" style="display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--gray-100);">
@@ -182,7 +182,7 @@
       </div>
       <div>
         <strong style="color:var(--navy);font-size:.95rem;">Continuitate de activitate și recuperare după dezastre</strong>
-        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice întrerupere a sistemelor de tratare a apei sau distribuției trebuie să poată fi recuperată în maximum 4 ore; planurile de contingență trebuie testate cel puțin anual și actualizate în funcție de rezultate. Trebuie să mențineți backup-uri criptate offline ale configurațiilor critice de SCADA și să asigurați redundanța pentru sisteme sensibile, inclusiv alimentare de rezervă și communication failover la stații de pompare esențiale.</p>
+        <p style="margin:.25rem 0 0;color:var(--gray-500);font-size:.9rem;line-height:1.6;">Orice întrerupere a sistemelor de tratare a apei sau distribuției trebuie să poată fi recuperată; planurile de contingență trebuie testate cel puțin anual și actualizate în funcție de rezultate. Trebuie să mențineți backup-uri criptate offline ale configurațiilor critice de SCADA și să asigurați redundanța pentru sisteme sensibile, inclusiv alimentare de rezervă și communication failover la stații de pompare esențiale.</p>
       </div>
     </div>
   </div>
